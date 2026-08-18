@@ -1,0 +1,15 @@
+# O NOME DO SITE, e ele mora aqui por medicao de 18/08/2026.
+#
+# Ate esta data o titulo so existia como `--titulo` na linha de comando de quem renderizava, com
+# padrao "Wiki". Custou dois defeitos no mesmo dia: a conferencia de site publicado acusou 70 de 70
+# paginas como fora de dia numa wiki que estava em dia, porque comparava um render intitulado
+# "Wiki" com o site real; e renderizar sem a opcao publicaria o site com o nome de outro projeto
+# sem nada acusar.
+#
+# Com o titulo na fonte, a conferencia compara igual com igual, e um site publicado sob nome errado
+# passa a divergir da fonte -- que e o que se espera de uma trava.
+# O render ACRESCENTA a palavra 'wiki' ao que estiver aqui. Escrever o nome ja com ela
+# duplicaria: 'Desenhos ... 2026.2 wiki wiki'. Foi o primeiro erro ao criar este arquivo,
+# e a causa e instrutiva: li o titulo do <title> RENDERIZADO, isto e, tomei uma saida por
+# entrada. A casa manda conferir o artefato; nao manda deduzir a fonte a partir dele.
+titulo: Desenhos e Técnicas Avançadas de Pesquisa 2026.2
