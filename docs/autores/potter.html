@@ -220,13 +220,25 @@ não por incompletude. Dado biográfico entra aqui quando houver fonte conferida
     blocosLang.forEach(function(el){
       el.hidden = (el.getAttribute('data-lang') !== alvo);
     });
-    // CROMO (rotulos da navegacao) tem atributo proprio, e segue o idioma PEDIDO, e
-    // nao o alvo. A separacao nao e estetica: se os rotulos usassem data-lang, toda
-    // pagina passaria a ter um bloco 'en' e a linha do alvo acima nunca cairia para
-    // 'pt' -- o recuo morreria calado nas 35 paginas sem traducao, e o corpo sumiria,
-    // que e o defeito que esta funcao existe para evitar. Ha teste dedicado a isso.
+    // CROMO (rotulos da navegacao) tem ATRIBUTO proprio, e e por isso que ele nao entra na
+    // consulta do alvo acima: se os rotulos usassem data-lang, toda pagina passaria a ter um
+    // bloco 'en' e a linha do alvo nunca cairia para 'pt' -- o recuo morreria calado nas
+    // paginas sem traducao, e o corpo sumiria, que e o defeito que esta funcao existe para
+    // evitar. Ha teste dedicado a isso.
+    //
+    // Atributo separado, porem, nao quer dizer idioma separado. Ate 18/08/2026 o cromo seguia o
+    // idioma PEDIDO enquanto o corpo caia para 'pt', e o resultado era a pagina bilingue que o
+    // pesquisador reportou naquele dia: sete rotulos de navegacao em ingles sobre um corpo
+    // inteiro em portugues (a lista esta no commit, e nao aqui, porque comentario que cita o
+    // rotulo literal vira falso positivo em toda varredura futura). Numa wiki sem
+    // nenhum sidecar .en.md, como a de Desenhos, bastava ter 'en' guardado no localStorage de
+    // antes da inversao do padrao para o cromo virar sozinho, e nada na tela explicava por que.
+    // Onde HA corpo, o cromo acompanha o alvo dele. Onde NAO ha (busca, tags e grafo sao so
+    // cromo), nao ha o que acompanhar, e o pedido continua valendo -- sem esta metade, a wiki
+    // vizinha, que e ensinada em ingles, perderia a traducao dessas tres paginas.
+    var alvoCromo = blocosLang.length ? alvo : l;
     document.querySelectorAll('[data-chrome-lang]').forEach(function(el){
-      el.hidden = (el.getAttribute('data-chrome-lang') !== l);
+      el.hidden = (el.getAttribute('data-chrome-lang') !== alvoCromo);
     });
     // So paginas com bloco data-lang tem corpo bilingue de verdade: busca, tags e o
     // grafo nao tem nenhum, so cromo, e sempre caindo em 'pt' aqui (achado em revisao
