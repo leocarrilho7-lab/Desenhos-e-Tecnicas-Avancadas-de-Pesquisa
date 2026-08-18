@@ -51,8 +51,8 @@ operadores booleanos são declarados.
 O que mais importa para a aula está na p. 3: a **cadeia de busca aparece transcrita literalmente**,
 com aspas e operadores, inclusive a expressão distinta usada na BVS, seguida dos filtros aplicados
 em tela (texto completo, idiomas inglês e português, ano, assunto, tipo de documento e artigos
-brasileiros). O critério de restringir a artigos brasileiros vem com justificativa substantiva, e
-não apenas de conveniência: outros países têm sistemas e coberturas diferentes, o que dificultaria
+brasileiros). O critério de restringir a artigos brasileiros vem com justificativa substantiva, que
+ultrapassa a conveniência: outros países têm sistemas e coberturas diferentes, o que dificultaria
 a comparação. Ainda na p. 3 vêm sete critérios de inclusão numerados e a lista do que foi excluído
 por tipo documental (anais, comunicações breves, monografias, dissertações, teses e boletins). A
 seleção foi feita por **dois pesquisadores independentes**, primeiro por título e resumo, depois
@@ -81,8 +81,8 @@ que não fecham. Os números declarados são 3.230 estudos potencialmente releva
 nas bases, 3.189 artigos excluídos pela análise do título, 51 artigos escolhidos para leitura na
 íntegra, 18 artigos excluídos no checklist e 34 estudos incluídos na revisão. A primeira subtração
 dá 41, e não os 51 declarados; a segunda dá 33, e não os 34 declarados. O espelho achata a figura
-em uma coluna de linhas, e por isso a ordem das caixas na extração não é confiável, mas os valores
-transcritos são esses, e a incompatibilidade está entre os próprios valores, qualquer que seja o
+em uma coluna de linhas, e por isso a ordem das caixas na extração ficou pouco confiável, embora os valores
+transcritos sejam esses, e a incompatibilidade está entre os próprios valores, qualquer que seja o
 arranjo. É a lição inteira da sessão em miniatura: declarar o número é o que permite que alguém
 refaça a soma, e nenhuma revisão que não declara chega a poder falhar nesse teste.
 

@@ -41,8 +41,8 @@ pergunta é aberta e o que se busca é mapear a extensão e a natureza de um cam
 se sintetiza efeito. As duas são espécies deste gênero, e a escolha entre elas se decide pela
 pergunta, não pelo tamanho da bibliografia.
 
-Na prática, o ponto de falha mais comum não é a ausência de protocolo, e sim a **distância entre as
-etapas descritas e o rastro que permitiria refazê-las**. Descrever quatro etapas de busca é
+Na prática, o ponto de falha mais comum aparece na **distância entre as etapas descritas e o rastro
+que permitiria refazê-las**, com protocolo declarado e tudo. Descrever quatro etapas de busca é
 declarar o desenho; informar quantos textos entraram e saíram em cada uma, com o motivo, é entregar
 o protocolo. Ver a análise dessa distância em `mariano-silva-2020`, que declara termos, bases,
 recorte e exclusões, e ainda assim só publica o número final do corpus.

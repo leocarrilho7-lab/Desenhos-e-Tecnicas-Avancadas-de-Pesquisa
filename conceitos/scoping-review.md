@@ -28,7 +28,7 @@ mapear, relatar e discutir características e conceitos desse campo, o desenho �
 Daí decorre a assimetria das perguntas, a fechada de um lado e a ampla de outro, e a assimetria
 da inferência, exploratória e descritiva de um lado, explanatória ou analítica de outro.
 
-## Por que isso não é rótulo, e sim procedimento
+## Por que o critério é procedimento conferível
 
 O critério é conferível porque produz duas proibições operacionais que qualquer leitor localiza
 no relatório final.

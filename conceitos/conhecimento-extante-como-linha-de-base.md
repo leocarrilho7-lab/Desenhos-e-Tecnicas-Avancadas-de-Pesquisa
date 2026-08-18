@@ -23,7 +23,7 @@ A operação não é de economia de esforço, é de mudança de estatuto de uma 
 p. 119 do espelho (p. 100) o Dilema do Prisioneiro é descrito como uma caixa que não é bem preta,
 cujo resultado é plenamente previsível e é conhecimento comum. O que faz a caixa fechar é a
 premissa de que atores e analistas subscrevem o mesmo constructo teórico: por isso as autoras
-podem dizer que não só elas, mas cada ator envolvido na narrativa, antecipa o resultado, ou seja,
+podem dizer que cada ator envolvido na narrativa antecipa o resultado, junto com elas próprias,
 que todos sofrerão e o recurso será destruído sem regulação e fiscalização efetivas. Como o
 resultado é antecipado dentro da história, ele deixa de ser variável a ser explicada e passa a
 ser parâmetro do ambiente em que a história acontece.

@@ -10,8 +10,8 @@ zettel_id: "6a"
 
 # Visão semântica das teorias
 
-Concepção em que uma teoria não é um conjunto de enunciados sobre o mundo, e sim uma coleção de
-modelos. Clarke e Primo a enunciam nessa forma na p. 13 do espelho (p. 12 impressa), e a atribuem,
+Concepção em que uma teoria é uma coleção de modelos, no lugar de um conjunto de enunciados sobre
+o mundo. Clarke e Primo a enunciam nessa forma na p. 13 do espelho (p. 12 impressa), e a atribuem,
 na p. 11 (p. 10 impressa), a Patrick Suppes, Frederick Suppe, Bas van Fraassen e Ronald Giere,
 registrando que ela chegou tarde e brevemente à ciência política, por Brady (2004). A alternativa
 que ela substitui é o [[hipotetico-dedutivismo]].

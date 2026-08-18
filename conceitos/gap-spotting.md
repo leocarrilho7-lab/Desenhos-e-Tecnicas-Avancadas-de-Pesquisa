@@ -18,7 +18,7 @@ neglect spotting, quando falta estudo sobre uma área esquecida, pouco pesquisad
 empírico; e application spotting, quando falta aplicar certa perspectiva a um campo (p. 7 a p. 10
 do espelho, p. 28 a p. 31 impressas).
 
-O [[mecanismo|mecanismo]] que interessa não é a taxonomia, e sim a lógica que ela revela. O gap-spotting toma
+O que interessa na taxonomia é a lógica que ela revela, e é aí que está o [[mecanismo|mecanismo]]. O gap-spotting toma
 os pressupostos da literatura como bons e acrescenta peça ao edifício, de modo que o resultado
 reforça ou revisa moderadamente aquilo em que se apoiou. Por isso a crítica dos autores não é de
 rigor nem de tema: um trabalho de gap-spotting pode ser impecável e ainda assim ter baixa chance

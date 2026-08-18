@@ -112,8 +112,8 @@ que foi mantido constante na derivação da implicação, nem mais nem menos.
 
 Duas consequências desse capítulo merecem registro, porque contrariam hábito. A primeira, nas
 p. 59 e 60 do espelho (p. 40 e 41 impressas), é que o modelo teórico não guia o empirista sobre o
-que controlar: o critério não é a variável estar no modelo, e sim se deixá-la de fora violaria a
-exigência de tudo o mais constante. A segunda, nas p. 60 e 61 (p. 41 e 42 impressas), é que
+que controlar: o critério é se deixar a variável de fora violaria a exigência
+de tudo o mais constante, e a presença dela no modelo não resolve a questão. A segunda, nas p. 60 e 61 (p. 41 e 42 impressas), é que
 relação do tipo tudo o mais constante não precisa ser causal. A implicação de que mulheres eleitas
 têm desempenho melhor que homens eleitos compara dois resultados endógenos, não é afirmação
 causal, e ainda assim exige a mesma disciplina de segurar o que precisa ser segurado.
@@ -178,5 +178,5 @@ O livro é a peça que dá vocabulário para separar três perguntas que costuma
 avaliação de trabalho empírico: se o modelo se parece com o mundo, se a medida e as suposições do
 desenho se parecem com o mundo, e se as duas grandezas comparadas são a mesma relação. Para um
 [[desenho-de-pesquisa|desenho de pesquisa]], a consequência prática é que a escolha do que segurar
-constante não é decidida pelo modelo nem pelo hábito da área, e sim pela implicação que se quer
-confrontar.
+constante é decidida pela implicação que se quer confrontar, e o modelo e o hábito da área não a
+determinam.

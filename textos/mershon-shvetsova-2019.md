@@ -85,8 +85,8 @@ conhecimento comum, de modo que as predições dos modelos passados entram nos n
 constantes conhecidas em vez de serem remodeladas.
 
 O [[mecanismo|mecanismo]] tem duas peças, e a segunda é a que costuma ser esquecida. A primeira é que o
-compartilhamento vale nos dois lados do vidro: não só as analistas, mas também cada ator da
-narrativa antecipa o resultado da caixa, o que é o que permite tratá-la como constante em vez de
+compartilhamento vale nos dois lados do vidro: cada ator da narrativa antecipa o resultado da
+caixa, junto com as analistas, o que é o que permite tratá-la como constante em vez de
 variável. A segunda é o preço, enunciado na conclusão, na p. 146 do espelho (p. 127): incorporar
 achados de um modelo extante exige adotar os pressupostos daquele modelo. Não é reuso de
 resultado, é reuso de resultado com os pressupostos junto, e por isso a última linha do capítulo,

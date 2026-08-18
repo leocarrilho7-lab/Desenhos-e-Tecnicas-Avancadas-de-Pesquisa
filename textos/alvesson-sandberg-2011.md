@@ -58,7 +58,7 @@ O artigo não opõe problematização e gap-spotting como incompatíveis. Na p. 
 forma modesta de escrutínio crítico, e ainda assim recusam chamá-lo de problematização
 genuína, pela razão que define o conceito: o gap-spotting não tenta deliberadamente
 identificar e desafiar os pressupostos da literatura no processo de construir a pergunta.
-O critério, portanto, não é a intensidade da crítica, e sim o alvo dela. Quem preenche
+O critério, portanto, recai sobre o alvo da crítica, e a intensidade dela não decide nada. Quem preenche
 lacuna acrescenta algo à literatura mantendo intacto o que a literatura pressupõe; quem
 problematiza transforma em pressuposto aquilo que o campo lê como fato.
 

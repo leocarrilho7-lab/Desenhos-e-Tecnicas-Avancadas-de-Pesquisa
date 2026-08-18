@@ -35,8 +35,7 @@ verificacoes: []
 O artigo pergunta como a “judicialização da política” deixou de agregar a produção das ciências
 sociais sobre o Supremo Tribunal Federal e o que ocupou seu lugar. Responde com o que chama de
 revisão bibliográfica sistemática: 148 textos publicados entre 1990 e 2021, classificados em oito
-temas. Para esta wiki, o que importa não é a resposta sobre o conceito, e sim o **procedimento de
-construção do corpus**, porque é ele que torna o mapa conferível por outra pessoa. Ver
+temas. Para esta wiki, o que importa é o **procedimento de construção do corpus**, porque é ele que torna o mapa conferível por outra pessoa. Ver
 [[protocolo-de-revisao]].
 
 ## O mecanismo da seleção, em quatro etapas

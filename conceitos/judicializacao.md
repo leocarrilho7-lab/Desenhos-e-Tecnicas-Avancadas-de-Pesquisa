@@ -14,9 +14,9 @@ Recurso ao Poder Judiciário para obter bem ou serviço que a via administrativa
 não entregou, ou que ela não reconhece como devido. No corpus desta disciplina o termo aparece na
 sua variante mais estudada no Brasil, a judicialização da saúde, e ocupa uma posição específica:
 é o **objeto empírico** sobre o qual os textos de análise exercitam o método, e não uma peça do
-método. Isso importa para a leitura da sessão, porque a pergunta que a aula faz aos textos de
-judicialização não é se eles acertam sobre saúde, e sim se o caminho pelo qual chegaram ao que
-dizem está declarado a ponto de outra pessoa refazê-lo.
+método. Isso importa para a leitura da sessão, porque a aula pergunta a esses textos se o caminho
+pelo qual chegaram ao que dizem está declarado a ponto de outra pessoa refazê-lo. O acerto
+substantivo sobre saúde fica fora do escopo da leitura.
 
 O [[mecanismo|mecanismo]] que dá tração analítica ao conceito é a separação entre duas origens da demanda, que
 FREITAS, FONSECA e QUELUZ (2020) tomam de Schulze e Neto na p. 10 do artigo. Na primeira, pede-se

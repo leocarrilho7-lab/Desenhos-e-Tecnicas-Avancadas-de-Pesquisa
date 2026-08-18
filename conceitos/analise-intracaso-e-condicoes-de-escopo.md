@@ -64,8 +64,8 @@ capítulo: dizer o que o desenho não consegue testar.
 
 ## O que o conceito obriga a declarar
 
-A opção pelo qualitativo não é apresentada como preferência, e sim como consequência de três
-restrições nomeadas: o objeto é processo complexo e multidimensional, sensível a mudanças na
+O texto justifica a opção pelo qualitativo por três restrições nomeadas, em vez de tratá-la como
+preferência de método: o objeto é processo complexo e multidimensional, sensível a mudanças na
 configuração de atores e instituições; faltam métricas comparadas de produto de política entre
 países e no tempo, tanto para propostas quanto para aprovadas; e há poucas economias avançadas, com
 forte interdependência de política climática entre membros da União Europeia, o que inviabiliza a

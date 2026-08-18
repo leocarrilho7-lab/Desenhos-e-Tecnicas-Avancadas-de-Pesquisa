@@ -11,8 +11,9 @@ zettel_id: "8a"
 # Poder normativo da burocracia
 
 Poder normativo da burocracia é a capacidade de servidores não eleitos criarem direito
-vinculante. Não se trata de influência sobre quem legisla, e sim de produção de norma com a
-mesma força e o mesmo efeito da lei aprovada pelo Congresso. Potter (2019) registra a dimensão
+vinculante. O que a agência produz tem a mesma força e o mesmo
+efeito da lei aprovada pelo Congresso, e por isso o fenômeno ultrapassa a influência sobre quem
+legisla. Potter (2019) registra a dimensão
 do fenômeno no bloco `## p. 16` do espelho (página impressa 2): por algumas estimativas, mais de
 90 por cento do direito norte-americano é criado por regras administrativas editadas por
 agências federais.
@@ -56,7 +57,7 @@ maneira de preencher os detalhes das leis, o que produziu a percepção de que m
 regra é neutra e sem importância. O bloco `## p. 18` (página impressa 4) desfaz a metade da
 percepção que é verdadeira, e o faz sem negá-la: a maioria das regras cuida mesmo de assuntos
 banais do Estado administrativo, e o exemplo do padrão para o tamanho dos buracos do queijo
-suíço está lá para isso. O argumento não é que toda regra seja relevante, e sim que a regra,
+suíço está lá para isso. O argumento é sobre o alcance do instrumento: a regra,
 como a lei, atende a uma multiplicidade de necessidades de política pública, e o mesmo
 instrumento que fixa buraco de queijo também limita publicidade de cigarro, cria o padrão
 nacional do rótulo orgânico e declara que gases de efeito estufa põem em risco a saúde pública

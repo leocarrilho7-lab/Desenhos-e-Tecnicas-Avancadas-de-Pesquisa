@@ -101,7 +101,8 @@ vinte anos (bloco `## p. 32`, página impressa 18), mais estudo de caso de uma r
 capítulo 7 e entrevistas com mais de uma dezena de servidores de agência e de representantes de
 grupos de interesse (blocos `## p. 28` e `## p. 29`, páginas impressas 14 e 15). E a autora
 declara o critério de suficiência que está usando: a expectativa
-não é que um caso ou um teste prove a teoria, mas que o conjunto das evidências persuada (bloco
+recai sobre o conjunto das evidências, que precisa persuadir, e nenhum caso ou teste isolado prova
+a teoria (bloco
 `## p. 29`, página impressa 15). Declarar isso é o que permite discutir o desenho em vez de
 discutir cada resultado isolado.
 
