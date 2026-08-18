@@ -1,0 +1,55 @@
+# Conferencia automatica das propostas de alteracao.
+#
+# O que este fluxo confere e o que ele NAO confere esta escrito em
+# scripts/conferir_basico.py, e vale repetir aqui porque e a informacao que decide como ler
+# um sinal verde: a fidelidade das citacoes nao e conferida por este fluxo. Ela depende da
+# copia em texto das leituras, que nao esta neste repositorio por causa de direito autoral.
+#
+# Verde aqui quer dizer "sem os erros baratos", e nunca "a contribuicao esta certa".
+
+name: Conferir estrutura dos verbetes
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+jobs:
+  estrutura:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o repositorio
+        uses: actions/checkout@v4
+
+      - name: Preparar o Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Conferir o proprio conferidor
+        # A ferramenta roda os testes dela antes de julgar a wiki. Conferidor quebrado que
+        # aprova tudo e pior que conferidor nenhum, porque ensina a confiar no sinal verde.
+        run: python scripts/conferir_basico.py --autoteste
+
+      - name: Conferir os verbetes
+        run: python scripts/conferir_basico.py
+
+# ---------------------------------------------------------------------------
+# POR QUE ESTE ARQUIVO ESTA AQUI E NAO EM .github/workflows/
+# ---------------------------------------------------------------------------
+# O GitHub recusa que uma chave de acesso pessoal sem a permissao "workflow" crie ou
+# altere arquivo dentro de .github/workflows/. A chave usada para publicar este
+# repositorio nao tem essa permissao, entao o arquivo veio parar aqui.
+#
+# Para ligar a conferencia automatica, o dono do repositorio faz uma vez:
+#
+#     gh auth refresh -s workflow
+#     mkdir -p .github/workflows
+#     git mv scripts/conferir.yml.exemplo .github/workflows/conferir.yml
+#     git commit -m "Liga a conferencia automatica das propostas"
+#     git push
+#
+# Enquanto isso nao acontece, a conferencia continua existindo e funcionando: ela e o
+# scripts/conferir_basico.py, que qualquer pessoa roda na propria maquina. O que falta e
+# so o disparo automatico a cada proposta.
