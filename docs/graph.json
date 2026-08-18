@@ -2384,42 +2384,42 @@
   "node_legend": [
     {
       "cls": "session",
-      "label": "session",
+      "label": "sessão",
       "color": "#f2cc8f",
       "size": 38,
       "count": 2
     },
     {
       "cls": "author",
-      "label": "author",
+      "label": "autor",
       "color": "#3d5a80",
       "size": 34,
       "count": 20
     },
     {
       "cls": "text",
-      "label": "text",
+      "label": "texto",
       "color": "#e07a5f",
       "size": 46,
       "count": 13
     },
     {
       "cls": "legislation",
-      "label": "legislation",
+      "label": "legislação",
       "color": "#6d597a",
       "size": 42,
       "count": 0
     },
     {
       "cls": "julgado",
-      "label": "case",
+      "label": "julgado",
       "color": "#9d0208",
       "size": 44,
       "count": 0
     },
     {
       "cls": "concept",
-      "label": "concept",
+      "label": "conceito",
       "color": "#81b29a",
       "size": 52,
       "count": 30
@@ -2428,62 +2428,62 @@
   "note_legend": [
     {
       "cls": "note-fugaz",
-      "label": "fleeting note",
+      "label": "nota fugaz",
       "color": "#9aa0a6",
       "count": 0
     },
     {
       "cls": "note-literaria",
-      "label": "literature note",
+      "label": "nota literária",
       "color": "#3d5a80",
       "count": 0
     },
     {
       "cls": "note-permanente",
-      "label": "permanent note",
+      "label": "nota permanente",
       "color": "#81b29a",
       "count": 30
     },
     {
       "cls": "note-projeto",
-      "label": "project note",
+      "label": "nota de projeto",
       "color": "#f2cc8f",
       "count": 0
     },
     {
       "cls": "note-referencia",
-      "label": "reference note",
+      "label": "nota de referência",
       "color": "#9b5de5",
       "count": 0
     }
   ],
   "edge_legend": [
     {
-      "label": "wrote",
+      "label": "escreveu",
       "color": "#3d5a80"
     },
     {
-      "label": "belongs to session",
+      "label": "pertence à sessão",
       "color": "#c9a227"
     },
     {
-      "label": "develops concept",
+      "label": "desenvolve conceito",
       "color": "#4d8067"
     },
     {
-      "label": "cites",
+      "label": "cita",
       "color": "#9b5de5"
     },
     {
-      "label": "relates to",
+      "label": "relaciona-se com",
       "color": "#c1503a"
     },
     {
-      "label": "defines concept",
+      "label": "define conceito",
       "color": "#6d597a"
     },
     {
-      "label": "instantiates concept",
+      "label": "instancia conceito",
       "color": "#9d0208"
     }
   ]
