@@ -39,6 +39,15 @@ liberdade não a blindagem institucional, e sim ao desacordo entre quem a assess
 depende de desacordo alheio desaparece quando o desacordo desaparece, e isso é o que o conceito
 acrescenta ao vocabulário corrente de captura.
 
+Esse segundo elo colide com o critério que [[mecanismo]] registra para tratar um coletivo como
+agente único, e a colisão é do próprio material. Em Ashworth, Berry e Bueno de Mesquita a licença
+para atribuir intenções a Estado, partido ou firma depende de o processo ter levado a alto grau de
+acordo entre os atores com poder de agir. Aqui o modelo faz o contrário: trata o Conselho como
+agente de dois principais concorrentes justamente porque eles discordam, e é do desacordo que vem a
+margem de liberdade do órgão. O peso gama é o preço dessa escolha, porque onde a agência unitária
+deixaria uma intenção o modelo põe uma ponderação com parâmetro, que é o que fica quando o critério
+do acordo não se cumpre.
+
 ## Onde a coisa vira número
 
 O modelo 5.3 converte a ponderação em peso explícito. Na p. 140 do espelho (p. 121) a utilidade

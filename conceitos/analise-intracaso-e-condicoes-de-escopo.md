@@ -71,7 +71,10 @@ países e no tempo, tanto para propostas quanto para aprovadas; e há poucas eco
 forte interdependência de política climática entre membros da União Europeia, o que inviabiliza a
 análise estatística transnacional (bloco `## p. 40`, página impressa 26). A primeira e a segunda
 restrições são vizinhas e não se derivam uma da outra. A
-[[sobredeterminacao-do-resultado|sobredeterminação]] recai sobre o *resultado* ambiental e impede
-identificar quanto uma reforma mitigou; a falta de métrica comparada recai sobre o *produto* de
-política, que a fonte diz não se reduzir a medida numérica inequívoca enquanto essas métricas não
-existirem. Juntas, e não em cadeia, é que empurram a inferência para dentro do caso.
+complexidade recai sobre o *processo* de política, multidimensional e sensível à configuração de
+atores e instituições; a falta de métrica comparada recai sobre o *produto* de política, que a
+fonte diz não se reduzir a medida numérica inequívoca enquanto essas métricas não existirem. A
+[[sobredeterminacao-do-resultado|sobredeterminação]] é ainda uma terceira coisa, e ela não está
+nesta página: a mesma obra a localiza cem páginas antes, recaindo sobre o *resultado* ambiental
+(blocos `## p. 20` e `## p. 21`, páginas impressas 6 e 7). Processo, produto e resultado são três
+recortes distintos, e é a soma dos três que empurra a inferência para dentro do caso.

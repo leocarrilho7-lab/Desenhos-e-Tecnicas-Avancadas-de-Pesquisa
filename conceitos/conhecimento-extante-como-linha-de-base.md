@@ -44,6 +44,14 @@ consistentes através de todos os passos. É por essa via que a operação se to
 conhecimento e não empréstimo oportunista, e é por essa via também que ela falha, quando o
 modelo importado traz consigo pressuposto incompatível com o modelo novo.
 
+A demonstração dessa dependência já está escrita no verbete vizinho, e vale conferi-la em vez de
+tomar a regra no abstrato. Em [[teste-de-existencia-e-logicidade]], o corte no peso gama só cai
+dentro do intervalo em que gama vive porque um pressuposto do Modelo 5.1, quinze páginas antes,
+empurra o denominador para cima de 1; sem a herança, a condição existiria e não excluiria peso
+nenhum. A dependência tem sinal, portanto: o pressuposto importado tanto pode dar conteúdo à
+condição derivada, como deu ali, quanto pode esvaziar o domínio, que é a falha contra a qual a
+p. 147 (p. 128) adverte.
+
 ## Onde o capítulo faz isso consigo mesmo
 
 O capítulo aplica o procedimento em dois níveis. No nível externo, importa a Tragédia dos Comuns

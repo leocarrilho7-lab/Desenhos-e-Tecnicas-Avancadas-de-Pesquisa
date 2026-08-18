@@ -43,6 +43,16 @@ descrever de modo plausível o alvo. Uma correlação simples pede pouca coisa, 
 representativa; uma relação do tipo [[tudo-o-mais-constante|tudo o mais constante]] pede suposições
 bem mais fortes.
 
+O alcance do conceito é maior que o dos modelos matemáticos, e a fonte diz isso na abertura do
+capítulo 3, na p. 53 do espelho (p. 34 impressa): as abordagens vão do modelo matemático da
+tradição da escolha racional ao modelo computacional baseado em agentes e ao modelo informal
+enraizado em argumentos sobre tipos ideais weberianos, e o que as une é a
+[[representacao-indireta|representação indireta]]. É essa frase que dá lastro de fonte à leitura de
+Potter (2019) e Mildenberger (2020) sob o mesmo quadro, que a wiki até aqui sustentava por
+justificativa editorial: a [[politicagem-procedimental]] e a [[dupla-representacao-de-poluidores]]
+são modelos informais no sentido do livro, com traços representacionais e traços auxiliares, e por
+isso as implicações delas se avaliam pelo mesmo critério de pertinência.
+
 ## Por que ela nunca é testada de frente
 
 Este é o ponto que muda a leitura de resultado empírico. Na p. 36 do espelho (p. 17 impressa), os

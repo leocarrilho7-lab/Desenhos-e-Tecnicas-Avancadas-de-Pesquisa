@@ -16,6 +16,16 @@ concepts:
         excerpt: "A model is meant to be similar to the target in a very particular way. Certain actors, situations, and mechanisms in the model must meaningfully represent analogous actors, situations, and mechanisms in the target."
       - page: 34
         excerpt: "It is not only theoretical models that are linked to the world through similarity. Empirical inquiry involves a research design, also linked to a real-world target through a relationship of similarity."
+  - id: representacao-indireta
+    evidence:
+      - page: 53
+        excerpt: "What unites these approaches is a strategy of indirect representation (Godfrey-Smith, 2006)."
+      - page: 53
+        excerpt: "You represent some real-world target with an abstract model and try to learn about the target in two steps"
+      - page: 66
+        excerpt: "We build models on certain principles so we can think about the world through a particular theoretical lens. This process has two steps."
+      - page: 66
+        excerpt: "The second step works because the model is linked to a target through a claim of similarity."
   - id: comensurabilidade
     evidence:
       - page: 35
@@ -40,7 +50,7 @@ concepts:
         excerpt: "This process of exploration helps us determine which features of the model constitute the mechanisms."
 sources:
   - path: "avaliacao/espelho_md/Desenhos e Técnicas Avançadas de Pesquisa 2026.2/Aula 01 - Desenho de pesquisa e estudos empíricos em regulação/ASHWORTH-BERRY-BUENO_DE_MESQUITA_2021_Theory and Credibility.md"
-tags: [S01, similaridade-modelo-alvo, comensurabilidade, tudo-o-mais-constante, mecanismo]
+tags: [S01, similaridade-modelo-alvo, representacao-indireta, comensurabilidade, tudo-o-mais-constante, mecanismo]
 verificacoes: []
 ---
 

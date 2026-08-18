@@ -63,6 +63,18 @@ não de magnitude igual entre legislaturas. Ashworth, Berry e Bueno de Mesquita 
 de os próprios autores terem batizado com nome quantitativo, a lei de um sobre N, uma implicação
 que é qualitativa.
 
+Falta a outra metade, e ela inverte o papel da heterogeneidade. Na p. 59 do espelho (p. 40
+impressa) os autores registram que, quando a teoria sugere efeitos heterogêneos, essa
+heterogeneidade interessa à avaliação de mecanismo tanto quanto o efeito médio, e o exemplo é uma
+adaptação do mesmo modelo de fundo comum, que nomeia um moderador: a magnitude do distrito. O
+modelo passa a ter duas implicações do tipo [[tudo-o-mais-constante|tudo o mais constante]], uma
+sobre a média e outra sobre os efeitos heterogêneos, e Baqir (2002) estuda as duas em câmaras
+municipais, mostrando que acrescentar cadeiras aumenta o gasto em média e aumenta mais nas câmaras
+eleitas por distrito do que nas eleitas em pleito geral. A consequência para a comensurabilidade é
+direta: a implicação heterogênea traz a sua própria cláusula, e o desenho que a avalia tem de
+segurar o que a derivação dela segurou, sob pena de a interação estimada e a interação implicada
+não serem a mesma relação.
+
 ## O uso ativo: qual implicação um desenho crível alcança
 
 Até aqui a comensurabilidade opera como filtro sobre comparação já existente, que ela aprova ou
