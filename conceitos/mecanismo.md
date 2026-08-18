@@ -73,3 +73,99 @@ substantivas sob as quais a implicação vale, nas p. 79 a 83 (p. 60 a 64 impres
 releitura de Olson por Esteban e Ray mostra que a conclusão sobre eficácia do interesse difuso
 dependia de uma forma funcional com conteúdo substantivo escondido, enquanto a conclusão sobre
 contribuição individual sobrevive à generalização e é, por isso, a implicação pertinente.
+
+## Explicar não é entender
+
+Nem toda resposta a um porquê entrega o que o livro chama de entendimento, porque o termo tem uso
+restrito. Na p. 73 do espelho (p. 54 impressa), a delimitação vem com exemplo: “Many nonintentional
+accounts are perfectly valid answers to why questions.” Perguntado por que um bairro votou em taxa
+mais alta que outro, responder “because they were canvassed, and canvassing causes people to vote”
+resolve a pergunta, e a mesma página classifica essa resposta: “That’s a causal explanation, but
+not an intentional one. In our terminology, this answer explains the phenomenon, without providing
+understanding of it.” A reserva do termo está enunciada na p. 72 do espelho (p. 53 impressa): “We
+say that we understand a phenomenon only when we have a successful intentional explanation of it.”
+
+A reserva registrada na p. 72 do espelho (p. 53 impressa) tem consequência direta para esta wiki.
+Explicar o comportamento de uma agência reguladora por mediador causal responde ao porquê e para
+aí. A análise institucional persegue outra coisa: a razão pela qual quem tem poder de agir agiu,
+formulada em oportunidades, crenças e desejos. Um desenho que estima mediador sem reconstruir essa
+razão entrega explicação com o entendimento de fora, e a diferença cobra preço na hora de sustentar
+similaridade, porque o traço que se quer representar é a própria razão do agente.
+
+## Quando o coletivo pode ser tratado como agente
+
+Tratar Estado, partido ou firma como se tivesse crenças e preferências tem condição declarada, e
+ela é substantiva. Na p. 74 do espelho (p. 55 impressa): “This behavior is comprehensible in terms
+of unitary intentions if that process led to a high level of agreement among the actors who have
+the power to act. In such a circumstance, treating the state as an intentional agent may be a
+productive simpliﬁcation.” A p. 75 do espelho (p. 56 impressa) traz a formulação de Frey, que
+amarra a licença a um teste de predição: ela só faz sentido se “the relevant behavior of some few
+group members (leaders, spokesmen, representatives, etc.) permits prediction of the behavior of the
+rest”.
+
+A mesma exigência já aparecera no capítulo 2, aplicada ao modelo de barganha de crise. Na p. 33 do
+espelho (p. 14 impressa), “the model treats the states as purposive... So the states in the real
+world to which the model is applied must have suﬃciently strong leaders or other domestic processes
+that make this meaningful.” A agência unitária entra, portanto, como afirmação representacional com
+condição de escopo, e o ônus é de quem aplica: chamá-la de conveniência de notação subestima o que
+ela compromete, porque, faltando o grau de acordo exigido, cai junto a
+[[similaridade-modelo-alvo|similaridade]] entre modelo e alvo. Aplicada a regulador colegiado, a
+condição obriga a mostrar que o processo decisório interno produz esse acordo.
+
+## A fronteira de α, e a divergência entre o corpo e a nota
+
+A generalização de Esteban e Ray tem um limiar, e o livro o enuncia duas vezes na mesma página com
+valores que não coincidem. No corpo da p. 82 do espelho (p. 63 impressa): “for any α ≥2, while it
+is still true that each member of a diﬀuse interest contributes less than each member of a
+concentrated interest, it is not true that diﬀuse interests are less eﬀective than concentrated
+interests. When α ≥2, the diﬀuse interest is more likely to win than the concentrated interest.”
+A extração do espelho colou as palavras do miolo dessa frase, e a transcrição acima devolve os
+espaços; as duas ocorrências de α ≥2 saíram íntegras. A nota 6, na mesma página, deriva a condição
+da equação (4.4) e chega a sinal estrito: “Substituting from Equation (4.4) into the left-hand
+side, we have that π∗i is decreasing in Ni if and only if α < 2.”
+
+Pela condição da nota 6, na p. 82 do espelho (p. 63 impressa), em α = 2 a derivada se anula, de
+modo que π∗i ali não é decrescente nem crescente em Ni e naquele ponto não há reversão estrita. O
+corpo, ao escrever α ≥2, inclui o caso de fronteira que a própria derivação exclui. Quem citar o
+resultado deve citar a nota, que é onde a álgebra fecha, e registrar a divergência do corpo.
+
+## Olson e Powell são casos opostos, de propósito
+
+O segundo exemplo foi escolhido para inverter o primeiro, e o livro diz isso ao apresentá-lo. Na
+p. 84 do espelho (p. 65 impressa): “Rather than focusing, as we did earlier, on a setting where we
+arguably get the conclusion wrong by making a speciﬁc functional form assumption, we focus on an
+example where the result we get with a speciﬁc functional form is right. But... we can’t really
+know that without having some technique that allows us to abstract from that speciﬁc functional
+form”. Em Powell, a estática comparativa monótona confirma o resultado obtido com forma funcional
+linear e o reancora em suposição substantiva, na p. 85 do espelho (p. 66 impressa): “Standard
+results from monotone comparative statics show that the appeasement oﬀer (x∗) is decreasing in S’s
+military strength (q) as long as x and q are substitutes in S’s expected utility function. Here,
+this simply requires something we already assumed, namely that p is increasing.”
+
+O par montado nas p. 84 e 85 do espelho (p. 65 e 66 impressas) é o argumento. Em Olson a forma
+funcional erra a conclusão; em Powell ela acerta. Nos dois casos a suposição entrou por
+conveniência algébrica, e a inspeção do modelo original não separa um caso do outro. Só a técnica
+que abstrai da forma funcional diz em qual deles o pesquisador está. Sem o par, a recomendação de
+desconfiar de forma funcional fica sem critério de aplicação: quem tivesse visto só Olson
+concluiria que forma funcional contamina sempre, e quem tivesse visto só Powell a trataria como
+inofensiva.
+
+## Uma divergência interna no exemplo da delegação, a conferir no PDF
+
+O exemplo instrutivo tem enunciado e demonstração puxando para lados contrários. Na p. 69 do
+espelho (p. 50 impressa), o resultado é enunciado no sentido de mais delegação sob mais incerteza:
+“Second, the principal is more likely to delegate when she faces a lot of uncertainty about how
+policies translate into outcomes (i.e., var(ε) is big). We call this result the uncertainty
+eﬀect.” Na p. 70 do espelho (p. 51 impressa), o payoff de delegar é definido sem dependência de ε,
+“If the principal does delegate, her payoﬀ is simply up(#(xa))”, e três linhas adiante o mesmo
+bloco conclui no sentido oposto: “Increasing the principal’s uncertainty reduced the
+attractiveness of delegating”. A legenda da figura 4.1, na p. 71 do espelho (p. 52 impressa),
+repete esse segundo sentido: “figure 4.1. A mean preserving spread of the distribution of shocks
+makes delegation less attractive, even if the principal is not risk averse.”
+
+Ressalva obrigatória sobre o estatuto desse registro: a extração do espelho colou palavras nas duas
+frases do corpo da p. 70 do espelho (p. 51 impressa) citadas acima, de modo que não se pode
+descartar supressão de um “not” na própria extração. O registro vale como divergência a conferir no
+PDF. Chamá-lo de erro provado do livro exigiria a página original à vista, que esta conferência não
+teve. Quem for usar o modelo de [[principal-agente|delegação]] para discutir discricionariedade
+regulatória sob incerteza deve abrir o PDF antes de citar o sentido do efeito da incerteza.

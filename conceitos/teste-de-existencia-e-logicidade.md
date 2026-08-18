@@ -57,6 +57,60 @@ pescadores comerciais são relativamente importantes para o Conselho, é preciso
 grande à outra espécie para que o órgão se mova. Sem esse passo, a condição seria uma linha de
 álgebra sem consequência observável, e a p. 145 (p. 126) não teria de onde tirar as hipóteses.
 
+Uma ressalva sobre a letra dessa leitura, que não desfaz a citação acima. O símbolo que o espelho
+grafa Ȥ é definido como sobrevivência duas vezes: na p. 128 do espelho (p. 109 impressa), "Ȥ
+denotes the probability of Chinook  survival", e outra vez dentro do próprio Modelo 5.3, na p. 141
+do espelho (p. 122 impressa), "Ȥ stands for the probability of the Chinook population’s survival".
+Na p. 144 (p. 125) a prosa o nomeia ao contrário: "the cumulative probability of Chinook demise,
+Ȥ(a), would need to be greater, the greater Ȗ is,  for the expression to hold". A letra da fonte
+contradiz a definição que o próprio modelo deu ao símbolo. O que a álgebra pede é que seja maior o
+ganho de sobrevivência ao trocar a tecnologia Agressiva pela Conservadora, isto é, a grandeza que a
+p. 143 do espelho (p. 124 impressa) define como o aumento na probabilidade de sobrevivência do
+Chinook quando a Conservadora substitui a Agressiva. A leitura substantiva das autoras sobrevive à
+ressalva, porque um caminho para esse ganho crescer é a sobrevivência sob tecnologia Agressiva ser
+menor, que é a ameaça de que a prosa fala. O que não sobrevive é o nome dado ao símbolo. A
+releitura em termos dessa grandeza é reconstrução deste verbete, e não está escrita assim na fonte.
+
+## De onde vem o corte interior no peso gama
+
+Na p. 143 do espelho (p. 124 impressa) as autoras abreviam as duas diferenças que carregam a
+condição: "Replacing for convenience the increase in the likelihood of Chinook  survival when
+Conservative technology replaces Aggressive technology as  a = Ȥ(C) –  Ȥ(A), and the decline in
+proﬁtability from switching to Conservative from Aggressive technology as b = L(C) –  L(A)". Com
+isso a expressão 5.3.5 fica gama menor ou igual a 1 sobre (1 - Qb/a - l), com Q, l, a e b nas
+grafias do espelho. A conferência de Existência, na p. 144 do espelho (p. 125 impressa), estabelece
+que esse denominador pode ser positivo: "Note that b is the negative term as we deﬁned it,  while a
+is positive. That implies that 1 –  Qb/a > 0, and so 1 –  Qb/a > l can  be easily satisﬁed."
+
+O Modelo 5.1 já havia fixado o sinal de uma comparação entre esses mesmos objetos, quinze páginas
+antes, na p. 128 do espelho (p. 109 impressa): "Given our assumptions about the relative importance
+of the decline in the cost of pollock ﬁshing and about the relatively  low commercial ﬁshers’ loss
+from marginally increasing the probability of Chinook depletion, ∆ub above is positive, that is,
+Q(L(A)–L(C)) > –  [l(Ȥ(A) – Ȥ(C))]." Reescrita nas abreviações de 5.3, essa desigualdade diz que a
+grandeza menos Qb/a supera l. Daí o denominador 1 - Qb/a - l ultrapassa 1, e o teto de gama, que é
+1 sobre esse denominador, cai estritamente abaixo de 1.
+
+**Essa passagem algébrica é reconstrução deste verbete, e não está escrita na fonte.** O que está
+na fonte são as duas desigualdades citadas acima, a do Modelo 5.1 na p. 128 do espelho (p. 109
+impressa) e a da conferência de Existência na p. 144 (p. 125), com as abreviações da p. 143
+(p. 124) entre elas. Também é reconstrução a leitura de que gama não passa de 1, que vem da forma
+da expressão 5.3.2, na p. 143 do espelho (p. 124 impressa), onde gama e o complemento dele repartem
+a utilidade do Conselho entre os dois grupos de interessados; a fonte declara expressamente apenas
+que gama precisa ser positivo, na p. 144 (p. 125).
+
+O que a reconstrução mostra é por que a condição tem conteúdo. A Existência sozinha garante
+denominador positivo, e denominador entre zero e um poria o teto acima de 1, isto é, acima de todo
+valor que gama pode assumir: a condição existiria e nenhum peso seria excluído por ela. O
+pressuposto herdado do Modelo 5.1 é o que empurra o denominador para cima de 1 e faz o corte cair
+dentro do intervalo em que gama vive, separando os pesos que admitem a recomendação daqueles que
+não a admitem.
+
+É o caso concreto de que reusar resultado é reusar resultado com os pressupostos junto, regra que
+[[conhecimento-extante-como-linha-de-base]] enuncia. A p. 142 do espelho (p. 123 impressa) já
+declarava o encaixe, ao tratar os Modelos 5.1 e 5.2.2 como subjogos próprios do Modelo 5.3, e o que
+o corte interior acrescenta é a direção em que a herança pesou: aqui o pressuposto importado deu
+conteúdo à condição derivada, em lugar de esvaziar o domínio.
+
 ## Onde entra no resto do capítulo
 
 O par de testes se aplica aqui à condição de recomendação do órgão descrito em

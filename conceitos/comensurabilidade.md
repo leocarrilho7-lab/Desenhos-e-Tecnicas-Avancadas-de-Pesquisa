@@ -62,3 +62,37 @@ primitivos, elas dizem respeito ao sinal ou à direção da relação, e não à
 não de magnitude igual entre legislaturas. Ashworth, Berry e Bueno de Mesquita observam a ironia
 de os próprios autores terem batizado com nome quantitativo, a lei de um sobre N, uma implicação
 que é qualitativa.
+
+## O uso ativo: qual implicação um desenho crível alcança
+
+Até aqui a comensurabilidade opera como filtro sobre comparação já existente, que ela aprova ou
+reprova. Na p. 47 do espelho (p. 28 impressa) os autores registram um segundo uso, que corre na
+direção contrária: "Another is to explore whether there are other empirical quantities that might
+also be used for assessment, especially quantities for which we could imagine a credible research
+design." Com um desenho crível em vista, o que se pede ao modelo é a implicação comensurável com o
+estimando que aquele desenho entrega. Na mesma página os autores fazem isso com a descontinuidade
+de regressão em eleições apertadas de Anzia e Berry (2011, Apêndice B): "we ask what theoretical
+implication is commensurable with the estimates a regression discontinuity yields."
+
+O que dá força ao exemplo é o resultado, porque os autores registram por escrito que erraram a
+intuição. Ainda na p. 47 do espelho (p. 28 impressa): "An informal analysis might seem to suggest
+that close elections should yield no diﬀerence in performance between men and women winners in our
+model of the perception gap. (At least, that is what we expected to ﬁnd when we thought about this
+model informally.)" O raciocínio informal é o de que empate significa qualidade igual, já que os
+eleitores não discriminam. A frase seguinte fecha na virada da página, "Intuitive as this argument
+is, the model reveals it to be" na p. 47 (p. 28 impressa) e "knife edged" no alto da p. 48
+(p. 29 impressa): basta existir ruído idiossincrático para a implicação cair.
+
+O que o modelo entrega no lugar está na p. 48 do espelho (p. 29 impressa): "the perception gap
+implies that, even conditional on a close election between a man and a woman, the distribution of
+quality among women who win is better than the distribution of quality among men who win". Com
+ruído, o empate acontece de dois modos assimétricos, e a assimetria vem da mesma distribuição de
+qualidade tratada acima, agora condicionada ao empate.
+
+A lição vale além do exemplo. A descontinuidade em eleições apertadas é o caso exemplar de desenho
+crível, e a credibilidade da identificação não apaga a seleção anterior à corrida: ela apenas
+desloca o ponto em que a seleção opera. O estimando da descontinuidade carrega a decisão endógena
+de concorrer, que é o [[mecanismo|mecanismo]] em exame, e por isso a implicação comensurável com
+ele afirma diferença positiva de desempenho. Quem tomasse o desenho crível como garantia de
+comensurabilidade leria um achado nulo como refutação da diferença de percepção, quando o modelo
+prevê o contrário.

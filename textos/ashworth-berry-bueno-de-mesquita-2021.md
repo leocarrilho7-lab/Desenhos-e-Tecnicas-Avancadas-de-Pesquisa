@@ -167,6 +167,30 @@ comensurabilidade: o desenho não deve segurar tudo, porque controlar as diferen
 qualificação entre candidatas e candidatos apagaria justamente o canal endógeno pelo qual o
 mecanismo opera.
 
+Ainda na p. 40 do espelho (p. 21 impressa), e duas vezes na mesma página, esse acordo vem com uma
+ressalva entre parênteses que muda a lição. Na primeira, ao anunciar o segundo resultado do
+capítulo: "But we show that, because of the positive selection just described, women’s superior
+performance is in fact an implication of our model embodying the perception gap mechanism. (It also
+turns out to be an implication of a model embodying voter discrimination.)" O espelho junta as
+palavras dessa frase por artefato de extração, e a citação acima restaura os espaços. Na segunda, ao
+qualificar o acordo que os autores acabam de chamar de mais informativo: "the agreement concerning
+women’s performance in oﬃce relative to men’s is more informative than the disagreement concerning
+win rates, because the former comes from a research design that does a better job of holding all
+else equal. (It would be even more informative if it wasn’t also an implication of a model of voter
+discrimination.)"
+
+A consequência é a diferença entre evidência forte e evidência que discrimina entre hipóteses
+rivais. O desenho que segura melhor o que precisa ser segurado torna o acordo mais informativo que o
+desacordo sobre taxas de vitória, como a mesma p. 40 do espelho (p. 21 impressa) afirma, e ainda
+assim o acordo permanece insuficiente para creditar o achado à diferença de percepção, porque o
+desempenho superior de mulheres no cargo é implicação também de um modelo de discriminação pelo
+eleitorado. Segurar o que precisa ser segurado resolve a [[comensurabilidade]]; a identificação do
+[[mecanismo]] fica de fora, e dependeria de uma implicação que os dois modelos rivais não
+compartilhem. É por isso que, ainda na p. 40 (p. 21 impressa), os autores anunciam a busca por
+outras oportunidades de avaliar se a diferença de percepção opera, representando eleições apertadas
+no modelo para obter implicações comensuráveis com as estimativas de um desenho de regressão
+descontínua.
+
 O capítulo 2 ainda usa o exemplo para tratar de extrapolação, nas p. 50 e 51 do espelho (p. 31 e
 32 impressas), em resposta à crítica de que a exigência de credibilidade empurra a pesquisa para
 alvos convenientes. A resposta é que o aval para extrapolar é proporcional às razões que se tem

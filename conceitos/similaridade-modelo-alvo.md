@@ -61,6 +61,16 @@ desenhos imperfeitos ensinam alguma coisa, e quanto melhores as medidas, mais pl
 suposições e mais comensurável a grandeza estimada, mais se aprende sobre o [[mecanismo]]
 incorporado no modelo.
 
+O acordo tem um limite a mais, e ele aparece no próprio exemplo do livro. Na p. 40 do espelho (p. 21
+impressa), o desempenho superior de mulheres no cargo é implicação do modelo da diferença de
+percepção e também de um modelo de discriminação pelo eleitorado, e por isso os autores qualificam
+entre parênteses o acordo que acabam de chamar de mais informativo: "(It would be even more
+informative if it wasn’t also an implication of a model of voter discrimination.)" Quando dois
+modelos rivais implicam o mesmo achado, a concordância entre implicação teórica e estimativa
+empírica sustenta a conjunção das três afirmações e deixa em aberto qual [[mecanismo]] produziu o
+resultado. Similaridade mais bem sustentada aumenta o quanto se aprende sobre o modelo; separar
+mecanismos exige implicação que só um dos modelos produza.
+
 ## Extrapolação
 
 O conceito também governa o que se pode dizer sobre alvos que não foram estudados, tema das p. 50
