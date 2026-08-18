@@ -90,7 +90,7 @@ que os positivistas diziam que teorias deveriam ser, e instalou-se a confusão e
 teoria e modelo, que os autores dizem não ter sido desfeita.
 
 O golpe central está na p. 7 do espelho (p. 6 impressa): o esquema hipotético-dedutivo não
-especifica o que testar uma implicação dedutiva pode nos dizer sobre o modelo em questão, ou seja,
+específica o que testar uma implicação dedutiva pode nos dizer sobre o modelo em questão, ou seja,
 sucesso preditivo não implica poder explicativo. A demonstração ocupa as p. 8 e 9 (p. 7 e 8
 impressas), com o exemplo de quem toma pílula anticoncepcional conforme a prescrição e não
 engravida. O argumento é dedutivamente correto e a predição se confirma, e ainda assim o modelo

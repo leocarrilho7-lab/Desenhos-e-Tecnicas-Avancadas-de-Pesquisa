@@ -35,7 +35,7 @@ sustentava saiu de circulação.
 
 ## Por que o teste não entrega o que promete
 
-A objeção decisiva está na p. 7 do espelho (p. 6 impressa): o esquema não especifica o que testar
+A objeção decisiva está na p. 7 do espelho (p. 6 impressa): o esquema não específica o que testar
 uma implicação dedutiva pode dizer sobre o modelo de que ela foi deduzida, ou seja, sucesso
 preditivo não implica poder explicativo. O mecanismo da falha é dedutivo. Se as premissas forem
 verdadeiras, a implicação tem de ser verdadeira, de modo que confirmar a implicação não distingue

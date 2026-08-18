@@ -12,6 +12,6 @@ variants:
 
 # Mariano Silva
 
-Autor de [[mariano-silva-2020]], mapa bibliografico da producao sobre o Supremo, usado como exemplo de aplicacao.
+Autor de [[mariano-silva-2020]], mapa bibliográfico da produção sobre o Supremo, usado como exemplo de aplicação.
 
-No de referencia: aponta para onde a obra esta, e nao carrega ideia propria. E curto por TIPO, e nao por incompletude. Dado biografico entra aqui quando houver fonte conferida, e nao de memoria.
+No de referência: aponta para onde a obra esta, e não carrega ideia própria. E curto por TIPO, e não por incompletude. Dado biografico entra aqui quando houver fonte conferida, e não de memória.

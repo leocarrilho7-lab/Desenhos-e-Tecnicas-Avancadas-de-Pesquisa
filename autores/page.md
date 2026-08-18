@@ -13,6 +13,6 @@ variants:
 
 # Matthew J. Page
 
-Primeiro autor de [[page-2021]], a declaracao PRISMA 2020.
+Primeiro autor de [[page-2021]], a declaração PRISMA 2020.
 
-No de referencia: aponta para onde a obra esta, e nao carrega ideia propria. E curto por TIPO, e nao por incompletude. Dado biografico entra aqui quando houver fonte conferida, e nao de memoria.
+No de referência: aponta para onde a obra esta, e não carrega ideia própria. E curto por TIPO, e não por incompletude. Dado biografico entra aqui quando houver fonte conferida, e não de memória.

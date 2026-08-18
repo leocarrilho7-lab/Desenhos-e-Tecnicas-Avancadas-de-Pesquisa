@@ -2,7 +2,7 @@
 name: Apontar um erro
 about: Citação que não confere, ligação errada, afirmação sem apoio ou erro de escrita
 title: "Correção: "
-labels: correcao
+labels: correção
 ---
 
 ## Onde está o erro

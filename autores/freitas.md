@@ -12,6 +12,6 @@ variants:
 
 # Bruno Cesar de Freitas
 
-Coautor de [[freitas-2020]], que a sessao usa como exemplo de aplicacao, e nao como texto de metodo.
+Coautor de [[freitas-2020]], que a sessão usa como exemplo de aplicação, e não como texto de método.
 
-No de referencia: aponta para onde a obra esta, e nao carrega ideia propria. E curto por TIPO, e nao por incompletude. Dado biografico entra aqui quando houver fonte conferida, e nao de memoria.
+No de referência: aponta para onde a obra esta, e não carrega ideia própria. E curto por TIPO, e não por incompletude. Dado biografico entra aqui quando houver fonte conferida, e não de memória.

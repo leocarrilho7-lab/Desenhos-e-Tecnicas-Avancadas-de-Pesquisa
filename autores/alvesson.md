@@ -12,6 +12,6 @@ variants:
 
 # Mats Alvesson
 
-Coautor de [[alvesson-sandberg-2011]] e de [[sandberg-alvesson-2011]], as duas leituras que a sessao usa para opor problematizacao a [[gap-spotting|gap-spotting]].
+Coautor de [[alvesson-sandberg-2011]] e de [[sandberg-alvesson-2011]], as duas leituras que a sessão usa para opor problematizacao a [[gap-spotting|gap-spotting]].
 
-No de referencia: aponta para onde a obra esta, e nao carrega ideia propria. E curto por TIPO, e nao por incompletude. Dado biografico entra aqui quando houver fonte conferida, e nao de memoria.
+No de referência: aponta para onde a obra esta, e não carrega ideia própria. E curto por TIPO, e não por incompletude. Dado biografico entra aqui quando houver fonte conferida, e não de memória.
