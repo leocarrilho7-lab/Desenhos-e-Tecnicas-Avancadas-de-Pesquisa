@@ -1,0 +1,6 @@
+# O site renderizado É publicado (fica em docs/, para o GitHub Pages servir).
+# O que não entra:
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db

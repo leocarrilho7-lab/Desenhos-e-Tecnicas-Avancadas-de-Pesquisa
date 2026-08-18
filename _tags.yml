@@ -1,0 +1,49 @@
+# Rotulo de cada tag nos dois idiomas.
+#
+# O SLUG (a chave) e a ANCORA e nao muda nunca: `tags.html#S02-03` publicado nao pode passar a
+# apontar para outro lugar. Aqui se traduz so o ROTULO exibido.
+#
+# Por que este arquivo e nao um campo no frontmatter: a mesma tag vive em varios verbetes, e
+# declarar a traducao em cada um criaria um segundo lugar guardando o mesmo fato.
+#
+# TRAVA: a FF-25 confere que toda tag usada tem entrada aqui, com os DOIS idiomas. O render recua
+# para o proprio slug quando falta, de proposito -- rotulo faltante nao pode apagar a navegacao de
+# uma pagina publicada. E por ser fail-open no display que a trava precisa existir: tag nova nasce
+# reprovando ate ganhar a sua linha.
+#
+# Codigo de sessao tem os dois idiomas iguais, e nao ha lista de excecao: uniformizar custa uma
+# linha por sessao, e manter excecao custa mais.
+
+tags:
+  S01: {pt: "S01", en: "S01"}
+  S02-03: {pt: "S02-03", en: "S02-03"}
+  captura-regulatoria-oculta: {pt: "captura regulatória oculta", en: "hidden regulatory capture"}
+  comensurabilidade: {pt: "comensurabilidade", en: "commensurability"}
+  conhecimento-extante-como-linha-de-base: {pt: "conhecimento extante como linha de base", en: "extant knowledge as the baseline"}
+  analise-intracaso-e-condicoes-de-escopo: {pt: "análise intracaso e condições de escopo", en: "within-case analysis and scope conditions"}
+  desenho-de-pesquisa: {pt: "desenho de pesquisa", en: "research design"}
+  externalidade-fora-do-regime-regulatorio: {pt: "externalidade fora do regime regulatório", en: "negative externalities outside a regulatory regime"}
+  dupla-representacao-de-poluidores: {pt: "dupla representação de poluidores", en: "double representation of carbon polluters"}
+  gap-spotting: {pt: "gap-spotting", en: "gap-spotting"}
+  hipotese-teorica: {pt: "hipótese teórica", en: "theoretical hypothesis"}
+  hipotetico-dedutivismo: {pt: "hipotético-dedutivismo", en: "hypothetico-deductivism"}
+  judicializacao: {pt: "judicialização", en: "judicialization"}
+  mecanismo: {pt: "mecanismo", en: "mechanism"}
+  pergunta-de-pesquisa: {pt: "pergunta de pesquisa", en: "research question"}
+  poder-normativo-da-burocracia: {pt: "poder normativo da burocracia", en: "bureaucratic rulemaking power"}
+  politicagem-procedimental: {pt: "politicagem procedimental", en: "procedural politicking"}
+  preferencias-transversais: {pt: "preferências transversais", en: "cross-cutting preferences"}
+  pressupostos-de-campo: {pt: "pressupostos de campo", en: "field assumptions"}
+  principal-agente: {pt: "principal-agente", en: "principal-agent"}
+  problematizacao: {pt: "problematização", en: "problematization"}
+  protocolo-de-revisao: {pt: "protocolo de revisão", en: "review protocol"}
+  revisao-sistematica: {pt: "revisão sistemática", en: "systematic review"}
+  scoping-review: {pt: "revisão de escopo", en: "scoping review"}
+  similaridade-modelo-alvo: {pt: "similaridade entre modelo e alvo", en: "model-target similarity"}
+  sobredeterminacao-do-resultado: {pt: "sobredeterminação do resultado", en: "overdetermination of the outcome"}
+  superproblematizacao: {pt: "superproblematização", en: "over-problematization"}
+  teste-de-existencia-e-logicidade: {pt: "teste de Existência e Logicidade", en: "Existence and Logicality tests"}
+  tudo-o-mais-constante: {pt: "tudo o mais constante", en: "all else equal"}
+  universo-relevante: {pt: "universo relevante", en: "relevant universe"}
+  variavel-caso-configuracao: {pt: "variável, caso e configuração", en: "variable, case, configuration"}
+  visao-semantica-das-teorias: {pt: "visão semântica das teorias", en: "semantic view of theories"}

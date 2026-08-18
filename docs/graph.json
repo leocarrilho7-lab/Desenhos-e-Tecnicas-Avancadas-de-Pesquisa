@@ -1,0 +1,2292 @@
+{
+  "nodes": [
+    {
+      "data": {
+        "id": "author:alvesson",
+        "label": "Mats Alvesson",
+        "ntype": "author",
+        "href": "autores/alvesson.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 0
+      },
+      "classes": "author",
+      "position": {
+        "x": 845.59,
+        "y": 480.38
+      }
+    },
+    {
+      "data": {
+        "id": "author:ashworth",
+        "label": "Scott Ashworth",
+        "ntype": "author",
+        "href": "autores/ashworth.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 0
+      },
+      "classes": "author",
+      "position": {
+        "x": 130.74,
+        "y": 82.92
+      }
+    },
+    {
+      "data": {
+        "id": "author:berry",
+        "label": "Christopher R. Berry",
+        "ntype": "author",
+        "href": "autores/berry.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 0
+      },
+      "classes": "author",
+      "position": {
+        "x": 178.69,
+        "y": 144.58
+      }
+    },
+    {
+      "data": {
+        "id": "author:bueno-de-mesquita",
+        "label": "Ethan Bueno de Mesquita",
+        "ntype": "author",
+        "href": "autores/bueno-de-mesquita.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 0
+      },
+      "classes": "author",
+      "position": {
+        "x": 159.25,
+        "y": 98.51
+      }
+    },
+    {
+      "data": {
+        "id": "author:clarke",
+        "label": "Kevin A. Clarke",
+        "ntype": "author",
+        "href": "autores/clarke.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 0
+      },
+      "classes": "author",
+      "position": {
+        "x": 0.0,
+        "y": 318.9
+      }
+    },
+    {
+      "data": {
+        "id": "author:fonseca",
+        "label": "Emílio Prado da Fonseca",
+        "ntype": "author",
+        "href": "autores/fonseca.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 0
+      },
+      "classes": "author",
+      "position": {
+        "x": 949.78,
+        "y": 0.0
+      }
+    },
+    {
+      "data": {
+        "id": "author:freitas",
+        "label": "Beatriz Cristina de Freitas",
+        "ntype": "author",
+        "href": "autores/freitas.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 0
+      },
+      "classes": "author",
+      "position": {
+        "x": 975.88,
+        "y": 21.17
+      }
+    },
+    {
+      "data": {
+        "id": "author:gustafsson",
+        "label": "Karl Gustafsson",
+        "ntype": "author",
+        "href": "autores/gustafsson.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 0
+      },
+      "classes": "author",
+      "position": {
+        "x": 780.2,
+        "y": 136.85
+      }
+    },
+    {
+      "data": {
+        "id": "author:hagstrom",
+        "label": "Linus Hagstrom",
+        "ntype": "author",
+        "href": "autores/hagstrom.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 0
+      },
+      "classes": "author",
+      "position": {
+        "x": 749.47,
+        "y": 143.25
+      }
+    },
+    {
+      "data": {
+        "id": "author:hancke",
+        "label": "Bob Hancke",
+        "ntype": "author",
+        "href": "autores/hancke.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 0
+      },
+      "classes": "author",
+      "position": {
+        "x": 653.93,
+        "y": 218.4
+      }
+    },
+    {
+      "data": {
+        "id": "author:mariano-silva",
+        "label": "Jeferson Mariano Silva",
+        "ntype": "author",
+        "href": "autores/mariano-silva.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 0
+      },
+      "classes": "author",
+      "position": {
+        "x": 903.6,
+        "y": 51.44
+      }
+    },
+    {
+      "data": {
+        "id": "author:mershon",
+        "label": "Carol Mershon",
+        "ntype": "author",
+        "href": "autores/mershon.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 0
+      },
+      "classes": "author",
+      "position": {
+        "x": 219.92,
+        "y": 683.91
+      }
+    },
+    {
+      "data": {
+        "id": "author:mildenberger",
+        "label": "Matto Mildenberger",
+        "ntype": "author",
+        "href": "autores/mildenberger.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 0
+      },
+      "classes": "author",
+      "position": {
+        "x": 16.19,
+        "y": 598.81
+      }
+    },
+    {
+      "data": {
+        "id": "author:page",
+        "label": "Matthew J. Page",
+        "ntype": "author",
+        "href": "autores/page.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 0
+      },
+      "classes": "author",
+      "position": {
+        "x": 1000.0,
+        "y": 317.58
+      }
+    },
+    {
+      "data": {
+        "id": "author:peters",
+        "label": "Micah D. J. Peters",
+        "ntype": "author",
+        "href": "autores/peters.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 0
+      },
+      "classes": "author",
+      "position": {
+        "x": 968.96,
+        "y": 384.6
+      }
+    },
+    {
+      "data": {
+        "id": "author:potter",
+        "label": "Rachel Augustine Potter",
+        "ntype": "author",
+        "href": "autores/potter.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 0
+      },
+      "classes": "author",
+      "position": {
+        "x": 368.85,
+        "y": 447.71
+      }
+    },
+    {
+      "data": {
+        "id": "author:primo",
+        "label": "David M. Primo",
+        "ntype": "author",
+        "href": "autores/primo.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 0
+      },
+      "classes": "author",
+      "position": {
+        "x": 21.15,
+        "y": 352.69
+      }
+    },
+    {
+      "data": {
+        "id": "author:queluz",
+        "label": "Dagmar de Paula Queluz",
+        "ntype": "author",
+        "href": "autores/queluz.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 0
+      },
+      "classes": "author",
+      "position": {
+        "x": 992.76,
+        "y": 62.9
+      }
+    },
+    {
+      "data": {
+        "id": "author:sandberg",
+        "label": "Jorgen Sandberg",
+        "ntype": "author",
+        "href": "autores/sandberg.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 0
+      },
+      "classes": "author",
+      "position": {
+        "x": 863.43,
+        "y": 448.17
+      }
+    },
+    {
+      "data": {
+        "id": "author:shvetsova",
+        "label": "Olga Shvetsova",
+        "ntype": "author",
+        "href": "autores/shvetsova.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 0
+      },
+      "classes": "author",
+      "position": {
+        "x": 135.79,
+        "y": 699.51
+      }
+    },
+    {
+      "data": {
+        "id": "concept:analise-intracaso-e-condicoes-de-escopo",
+        "label": "Análise intracaso e condições de escopo",
+        "ntype": "concept",
+        "href": "conceitos/analise-intracaso-e-condicoes-de-escopo.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 2,
+        "note_type": "permanente",
+        "zettel_id": "9c"
+      },
+      "classes": "concept note-permanente",
+      "position": {
+        "x": 55.99,
+        "y": 620.7
+      }
+    },
+    {
+      "data": {
+        "id": "concept:captura-regulatoria-oculta",
+        "label": "Captura regulatória oculta",
+        "ntype": "concept",
+        "href": "conceitos/captura-regulatoria-oculta.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 3,
+        "note_type": "permanente",
+        "zettel_id": "7b"
+      },
+      "classes": "concept note-permanente",
+      "position": {
+        "x": 173.88,
+        "y": 718.89
+      }
+    },
+    {
+      "data": {
+        "id": "concept:comensurabilidade",
+        "label": "Comensurabilidade",
+        "ntype": "concept",
+        "href": "conceitos/comensurabilidade.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 3,
+        "note_type": "permanente",
+        "zettel_id": "5a"
+      },
+      "classes": "concept note-permanente",
+      "position": {
+        "x": 113.14,
+        "y": 168.88
+      }
+    },
+    {
+      "data": {
+        "id": "concept:conhecimento-extante-como-linha-de-base",
+        "label": "Conhecimento extante como linha de base",
+        "ntype": "concept",
+        "href": "conceitos/conhecimento-extante-como-linha-de-base.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 3,
+        "note_type": "permanente",
+        "zettel_id": "7"
+      },
+      "classes": "concept note-permanente",
+      "position": {
+        "x": 182.37,
+        "y": 760.0
+      }
+    },
+    {
+      "data": {
+        "id": "concept:desenho-de-pesquisa",
+        "label": "Desenho de pesquisa",
+        "ntype": "concept",
+        "href": "conceitos/desenho-de-pesquisa.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 3,
+        "note_type": "permanente",
+        "zettel_id": "2"
+      },
+      "classes": "concept note-permanente",
+      "position": {
+        "x": 620.28,
+        "y": 331.94
+      }
+    },
+    {
+      "data": {
+        "id": "concept:dupla-representacao-de-poluidores",
+        "label": "Dupla representação de poluidores",
+        "ntype": "concept",
+        "href": "conceitos/dupla-representacao-de-poluidores.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 2,
+        "note_type": "permanente",
+        "zettel_id": "9"
+      },
+      "classes": "concept note-permanente",
+      "position": {
+        "x": 22.21,
+        "y": 523.77
+      }
+    },
+    {
+      "data": {
+        "id": "concept:externalidade-fora-do-regime-regulatorio",
+        "label": "Externalidade fora do regime regulatório",
+        "ntype": "concept",
+        "href": "conceitos/externalidade-fora-do-regime-regulatorio.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 3,
+        "note_type": "permanente",
+        "zettel_id": "7a"
+      },
+      "classes": "concept note-permanente",
+      "position": {
+        "x": 194.94,
+        "y": 732.02
+      }
+    },
+    {
+      "data": {
+        "id": "concept:gap-spotting",
+        "label": "Gap-spotting",
+        "ntype": "concept",
+        "href": "conceitos/gap-spotting.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 4,
+        "note_type": "permanente",
+        "zettel_id": "1a"
+      },
+      "classes": "concept note-permanente",
+      "position": {
+        "x": 776.79,
+        "y": 404.21
+      }
+    },
+    {
+      "data": {
+        "id": "concept:hipotese-teorica",
+        "label": "Hipótese teórica",
+        "ntype": "concept",
+        "href": "conceitos/hipotese-teorica.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 2,
+        "note_type": "permanente",
+        "zettel_id": "6a1"
+      },
+      "classes": "concept note-permanente",
+      "position": {
+        "x": 20.44,
+        "y": 230.67
+      }
+    },
+    {
+      "data": {
+        "id": "concept:hipotetico-dedutivismo",
+        "label": "Hipotético-dedutivismo",
+        "ntype": "concept",
+        "href": "conceitos/hipotetico-dedutivismo.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 3,
+        "note_type": "permanente",
+        "zettel_id": "6"
+      },
+      "classes": "concept note-permanente",
+      "position": {
+        "x": 3.68,
+        "y": 260.26
+      }
+    },
+    {
+      "data": {
+        "id": "concept:judicializacao",
+        "label": "Judicialização",
+        "ntype": "concept",
+        "href": "conceitos/judicializacao.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 2,
+        "note_type": "permanente",
+        "zettel_id": "4"
+      },
+      "classes": "concept note-permanente",
+      "position": {
+        "x": 953.27,
+        "y": 119.69
+      }
+    },
+    {
+      "data": {
+        "id": "concept:mecanismo",
+        "label": "Mecanismo",
+        "ntype": "concept",
+        "href": "conceitos/mecanismo.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 2,
+        "note_type": "permanente",
+        "zettel_id": "5b"
+      },
+      "classes": "concept note-permanente",
+      "position": {
+        "x": 89.37,
+        "y": 156.67
+      }
+    },
+    {
+      "data": {
+        "id": "concept:pergunta-de-pesquisa",
+        "label": "Pergunta de pesquisa",
+        "ntype": "concept",
+        "href": "conceitos/pergunta-de-pesquisa.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 4,
+        "note_type": "permanente",
+        "zettel_id": "1"
+      },
+      "classes": "concept note-permanente",
+      "position": {
+        "x": 719.74,
+        "y": 344.13
+      }
+    },
+    {
+      "data": {
+        "id": "concept:poder-normativo-da-burocracia",
+        "label": "Poder normativo da burocracia",
+        "ntype": "concept",
+        "href": "conceitos/poder-normativo-da-burocracia.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 2,
+        "note_type": "permanente",
+        "zettel_id": "8a"
+      },
+      "classes": "concept note-permanente",
+      "position": {
+        "x": 361.51,
+        "y": 298.56
+      }
+    },
+    {
+      "data": {
+        "id": "concept:politicagem-procedimental",
+        "label": "Politicagem procedimental",
+        "ntype": "concept",
+        "href": "conceitos/politicagem-procedimental.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 3,
+        "note_type": "permanente",
+        "zettel_id": "8"
+      },
+      "classes": "concept note-permanente",
+      "position": {
+        "x": 382.41,
+        "y": 315.8
+      }
+    },
+    {
+      "data": {
+        "id": "concept:preferencias-transversais",
+        "label": "Preferências transversais",
+        "ntype": "concept",
+        "href": "conceitos/preferencias-transversais.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 2,
+        "note_type": "permanente",
+        "zettel_id": "9a"
+      },
+      "classes": "concept note-permanente",
+      "position": {
+        "x": 12.81,
+        "y": 551.16
+      }
+    },
+    {
+      "data": {
+        "id": "concept:pressupostos-de-campo",
+        "label": "Pressupostos de campo",
+        "ntype": "concept",
+        "href": "conceitos/pressupostos-de-campo.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 2,
+        "note_type": "permanente",
+        "zettel_id": "1b1"
+      },
+      "classes": "concept note-permanente",
+      "position": {
+        "x": 783.28,
+        "y": 472.76
+      }
+    },
+    {
+      "data": {
+        "id": "concept:principal-agente",
+        "label": "Principal-agente",
+        "ntype": "concept",
+        "href": "conceitos/principal-agente.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 2,
+        "note_type": "permanente",
+        "zettel_id": "8b"
+      },
+      "classes": "concept note-permanente",
+      "position": {
+        "x": 397.5,
+        "y": 349.36
+      }
+    },
+    {
+      "data": {
+        "id": "concept:problematizacao",
+        "label": "Problematização",
+        "ntype": "concept",
+        "href": "conceitos/problematizacao.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 4,
+        "note_type": "permanente",
+        "zettel_id": "1b"
+      },
+      "classes": "concept note-permanente",
+      "position": {
+        "x": 766.16,
+        "y": 428.38
+      }
+    },
+    {
+      "data": {
+        "id": "concept:protocolo-de-revisao",
+        "label": "Protocolo de revisão",
+        "ntype": "concept",
+        "href": "conceitos/protocolo-de-revisao.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 4,
+        "note_type": "permanente",
+        "zettel_id": "3"
+      },
+      "classes": "concept note-permanente",
+      "position": {
+        "x": 959.17,
+        "y": 176.69
+      }
+    },
+    {
+      "data": {
+        "id": "concept:revisao-sistematica",
+        "label": "Revisão sistemática",
+        "ntype": "concept",
+        "href": "conceitos/revisao-sistematica.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 3,
+        "note_type": "permanente",
+        "zettel_id": "3a"
+      },
+      "classes": "concept note-permanente",
+      "position": {
+        "x": 989.8,
+        "y": 233.22
+      }
+    },
+    {
+      "data": {
+        "id": "concept:scoping-review",
+        "label": "Scoping review",
+        "ntype": "concept",
+        "href": "conceitos/scoping-review.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 3,
+        "note_type": "permanente",
+        "zettel_id": "3b"
+      },
+      "classes": "concept note-permanente",
+      "position": {
+        "x": 966.76,
+        "y": 241.44
+      }
+    },
+    {
+      "data": {
+        "id": "concept:similaridade-modelo-alvo",
+        "label": "Similaridade entre modelo e alvo",
+        "ntype": "concept",
+        "href": "conceitos/similaridade-modelo-alvo.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 4,
+        "note_type": "permanente",
+        "zettel_id": "5"
+      },
+      "classes": "concept note-permanente",
+      "position": {
+        "x": 95.54,
+        "y": 203.36
+      }
+    },
+    {
+      "data": {
+        "id": "concept:sobredeterminacao-do-resultado",
+        "label": "Sobredeterminação do resultado",
+        "ntype": "concept",
+        "href": "conceitos/sobredeterminacao-do-resultado.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 2,
+        "note_type": "permanente",
+        "zettel_id": "9b"
+      },
+      "classes": "concept note-permanente",
+      "position": {
+        "x": 38.37,
+        "y": 625.98
+      }
+    },
+    {
+      "data": {
+        "id": "concept:superproblematizacao",
+        "label": "Superproblematização",
+        "ntype": "concept",
+        "href": "conceitos/superproblematizacao.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 2,
+        "note_type": "permanente",
+        "zettel_id": "1b2"
+      },
+      "classes": "concept note-permanente",
+      "position": {
+        "x": 798.01,
+        "y": 440.25
+      }
+    },
+    {
+      "data": {
+        "id": "concept:teste-de-existencia-e-logicidade",
+        "label": "Teste de Existência e Logicidade",
+        "ntype": "concept",
+        "href": "conceitos/teste-de-existencia-e-logicidade.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 3,
+        "note_type": "permanente",
+        "zettel_id": "7c"
+      },
+      "classes": "concept note-permanente",
+      "position": {
+        "x": 161.68,
+        "y": 748.17
+      }
+    },
+    {
+      "data": {
+        "id": "concept:tudo-o-mais-constante",
+        "label": "Tudo o mais constante",
+        "ntype": "concept",
+        "href": "conceitos/tudo-o-mais-constante.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 3,
+        "note_type": "permanente",
+        "zettel_id": "5a1"
+      },
+      "classes": "concept note-permanente",
+      "position": {
+        "x": 112.44,
+        "y": 134.95
+      }
+    },
+    {
+      "data": {
+        "id": "concept:universo-relevante",
+        "label": "Universo relevante",
+        "ntype": "concept",
+        "href": "conceitos/universo-relevante.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 4,
+        "note_type": "permanente",
+        "zettel_id": "2a"
+      },
+      "classes": "concept note-permanente",
+      "position": {
+        "x": 544.83,
+        "y": 333.47
+      }
+    },
+    {
+      "data": {
+        "id": "concept:variavel-caso-configuracao",
+        "label": "Variável, caso e configuração",
+        "ntype": "concept",
+        "href": "conceitos/variavel-caso-configuracao.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 3,
+        "note_type": "permanente",
+        "zettel_id": "2b"
+      },
+      "classes": "concept note-permanente",
+      "position": {
+        "x": 596.9,
+        "y": 318.7
+      }
+    },
+    {
+      "data": {
+        "id": "concept:visao-semantica-das-teorias",
+        "label": "Visão semântica das teorias",
+        "ntype": "concept",
+        "href": "conceitos/visao-semantica-das-teorias.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 3,
+        "note_type": "permanente",
+        "zettel_id": "6a"
+      },
+      "classes": "concept note-permanente",
+      "position": {
+        "x": 21.62,
+        "y": 264.64
+      }
+    },
+    {
+      "data": {
+        "id": "session:s01",
+        "label": "Desenho de pesquisa e estudos empíricos em regulação",
+        "ntype": "session",
+        "href": "sessoes/s01.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 5
+      },
+      "classes": "session",
+      "position": {
+        "x": 182.32,
+        "y": 409.58
+      }
+    },
+    {
+      "data": {
+        "id": "session:s02-03",
+        "label": "Problema de pesquisa e revisão bibliográfica replicável",
+        "ntype": "session",
+        "href": "sessoes/s02-03.html",
+        "status": "complete",
+        "ano": null,
+        "grau_entrada": 8
+      },
+      "classes": "session",
+      "position": {
+        "x": 838.23,
+        "y": 263.48
+      }
+    },
+    {
+      "data": {
+        "id": "text:alvesson-sandberg-2011",
+        "label": "Generating Research Questions Through Problematization",
+        "ntype": "text",
+        "href": "textos/alvesson-sandberg-2011.html",
+        "status": "complete",
+        "ano": 2011,
+        "grau_entrada": 2
+      },
+      "classes": "text",
+      "position": {
+        "x": 821.32,
+        "y": 410.39
+      }
+    },
+    {
+      "data": {
+        "id": "text:ashworth-berry-bueno-de-mesquita-2021",
+        "label": "Theory and Credibility: Integrating Theoretical and Empirical Social Science",
+        "ntype": "text",
+        "href": "textos/ashworth-berry-bueno-de-mesquita-2021.html",
+        "status": "complete",
+        "ano": 2021,
+        "grau_entrada": 3
+      },
+      "classes": "text",
+      "position": {
+        "x": 142.95,
+        "y": 203.47
+      }
+    },
+    {
+      "data": {
+        "id": "text:clarke-primo-2004",
+        "label": "The Theoretical Implications of the Empirical Implications of Theoretical Models",
+        "ntype": "text",
+        "href": "textos/clarke-primo-2004.html",
+        "status": "complete",
+        "ano": 2004,
+        "grau_entrada": 2
+      },
+      "classes": "text",
+      "position": {
+        "x": 66.58,
+        "y": 307.22
+      }
+    },
+    {
+      "data": {
+        "id": "text:freitas-2020",
+        "label": "A Judicialização da saúde nos sistemas público e privado de saúde: uma revisão sistemática",
+        "ntype": "text",
+        "href": "textos/freitas-2020.html",
+        "status": "complete",
+        "ano": 2020,
+        "grau_entrada": 3
+      },
+      "classes": "text",
+      "position": {
+        "x": 929.71,
+        "y": 113.82
+      }
+    },
+    {
+      "data": {
+        "id": "text:gustafsson-hagstrom-2017",
+        "label": "What is the Point? Teaching Graduate Students How to Construct Political Science Research Puzzles",
+        "ntype": "text",
+        "href": "textos/gustafsson-hagstrom-2017.html",
+        "status": "complete",
+        "ano": 2017,
+        "grau_entrada": 2
+      },
+      "classes": "text",
+      "position": {
+        "x": 769.85,
+        "y": 230.74
+      }
+    },
+    {
+      "data": {
+        "id": "text:hancke-2009",
+        "label": "Intelligent Research Design: A Guide for Beginning Researchers in the Social Sciences",
+        "ntype": "text",
+        "href": "textos/hancke-2009.html",
+        "status": "complete",
+        "ano": 2009,
+        "grau_entrada": 1
+      },
+      "classes": "text",
+      "position": {
+        "x": 673.45,
+        "y": 294.72
+      }
+    },
+    {
+      "data": {
+        "id": "text:mariano-silva-2020",
+        "label": "Depois da “judicialização”: um mapa bibliográfico do Supremo",
+        "ntype": "text",
+        "href": "textos/mariano-silva-2020.html",
+        "status": "complete",
+        "ano": 2020,
+        "grau_entrada": 1
+      },
+      "classes": "text",
+      "position": {
+        "x": 903.52,
+        "y": 157.84
+      }
+    },
+    {
+      "data": {
+        "id": "text:mershon-shvetsova-2019",
+        "label": "Formal Modeling in Social Science, cap. 5: Industry Regulation",
+        "ntype": "text",
+        "href": "textos/mershon-shvetsova-2019.html",
+        "status": "complete",
+        "ano": 2019,
+        "grau_entrada": 2
+      },
+      "classes": "text",
+      "position": {
+        "x": 178.88,
+        "y": 638.93
+      }
+    },
+    {
+      "data": {
+        "id": "text:mildenberger-2020",
+        "label": "Carbon Captured: How Business and Labor Control Climate Politics",
+        "ntype": "text",
+        "href": "textos/mildenberger-2020.html",
+        "status": "complete",
+        "ano": 2020,
+        "grau_entrada": 1
+      },
+      "classes": "text",
+      "position": {
+        "x": 73.86,
+        "y": 533.53
+      }
+    },
+    {
+      "data": {
+        "id": "text:page-2021",
+        "label": "The PRISMA 2020 statement: an updated guideline for reporting systematic reviews",
+        "ntype": "text",
+        "href": "textos/page-2021.html",
+        "status": "complete",
+        "ano": 2021,
+        "grau_entrada": 1
+      },
+      "classes": "text",
+      "position": {
+        "x": 935.76,
+        "y": 275.66
+      }
+    },
+    {
+      "data": {
+        "id": "text:peters-2020",
+        "label": "Updated methodological guidance for the conduct of scoping reviews",
+        "ntype": "text",
+        "href": "textos/peters-2020.html",
+        "status": "complete",
+        "ano": 2020,
+        "grau_entrada": 1
+      },
+      "classes": "text",
+      "position": {
+        "x": 920.25,
+        "y": 309.42
+      }
+    },
+    {
+      "data": {
+        "id": "text:potter-2019",
+        "label": "Bending the Rules: Procedural Politicking in the Bureaucracy",
+        "ntype": "text",
+        "href": "textos/potter-2019.html",
+        "status": "complete",
+        "ano": 2019,
+        "grau_entrada": 1
+      },
+      "classes": "text",
+      "position": {
+        "x": 364.88,
+        "y": 370.19
+      }
+    },
+    {
+      "data": {
+        "id": "text:sandberg-alvesson-2011",
+        "label": "Ways of constructing research questions: gap-spotting or problematization?",
+        "ntype": "text",
+        "href": "textos/sandberg-alvesson-2011.html",
+        "status": "complete",
+        "ano": 2011,
+        "grau_entrada": 2
+      },
+      "classes": "text",
+      "position": {
+        "x": 833.09,
+        "y": 391.69
+      }
+    }
+  ],
+  "edges": [
+    {
+      "data": {
+        "id": "e0",
+        "source": "author:alvesson",
+        "target": "text:alvesson-sandberg-2011",
+        "etype": "escreveu"
+      },
+      "classes": "escreveu"
+    },
+    {
+      "data": {
+        "id": "e1",
+        "source": "author:alvesson",
+        "target": "text:sandberg-alvesson-2011",
+        "etype": "escreveu"
+      },
+      "classes": "escreveu"
+    },
+    {
+      "data": {
+        "id": "e2",
+        "source": "author:ashworth",
+        "target": "text:ashworth-berry-bueno-de-mesquita-2021",
+        "etype": "escreveu"
+      },
+      "classes": "escreveu"
+    },
+    {
+      "data": {
+        "id": "e3",
+        "source": "author:berry",
+        "target": "text:ashworth-berry-bueno-de-mesquita-2021",
+        "etype": "escreveu"
+      },
+      "classes": "escreveu"
+    },
+    {
+      "data": {
+        "id": "e4",
+        "source": "author:bueno-de-mesquita",
+        "target": "text:ashworth-berry-bueno-de-mesquita-2021",
+        "etype": "escreveu"
+      },
+      "classes": "escreveu"
+    },
+    {
+      "data": {
+        "id": "e5",
+        "source": "author:clarke",
+        "target": "text:clarke-primo-2004",
+        "etype": "escreveu"
+      },
+      "classes": "escreveu"
+    },
+    {
+      "data": {
+        "id": "e6",
+        "source": "author:fonseca",
+        "target": "text:freitas-2020",
+        "etype": "escreveu"
+      },
+      "classes": "escreveu"
+    },
+    {
+      "data": {
+        "id": "e7",
+        "source": "author:freitas",
+        "target": "text:freitas-2020",
+        "etype": "escreveu"
+      },
+      "classes": "escreveu"
+    },
+    {
+      "data": {
+        "id": "e8",
+        "source": "author:gustafsson",
+        "target": "text:gustafsson-hagstrom-2017",
+        "etype": "escreveu"
+      },
+      "classes": "escreveu"
+    },
+    {
+      "data": {
+        "id": "e9",
+        "source": "author:hagstrom",
+        "target": "text:gustafsson-hagstrom-2017",
+        "etype": "escreveu"
+      },
+      "classes": "escreveu"
+    },
+    {
+      "data": {
+        "id": "e10",
+        "source": "author:hancke",
+        "target": "text:hancke-2009",
+        "etype": "escreveu"
+      },
+      "classes": "escreveu"
+    },
+    {
+      "data": {
+        "id": "e11",
+        "source": "author:mariano-silva",
+        "target": "text:mariano-silva-2020",
+        "etype": "escreveu"
+      },
+      "classes": "escreveu"
+    },
+    {
+      "data": {
+        "id": "e12",
+        "source": "author:mershon",
+        "target": "text:mershon-shvetsova-2019",
+        "etype": "escreveu"
+      },
+      "classes": "escreveu"
+    },
+    {
+      "data": {
+        "id": "e13",
+        "source": "author:mildenberger",
+        "target": "text:mildenberger-2020",
+        "etype": "escreveu"
+      },
+      "classes": "escreveu"
+    },
+    {
+      "data": {
+        "id": "e14",
+        "source": "author:page",
+        "target": "text:page-2021",
+        "etype": "escreveu"
+      },
+      "classes": "escreveu"
+    },
+    {
+      "data": {
+        "id": "e15",
+        "source": "author:peters",
+        "target": "text:peters-2020",
+        "etype": "escreveu"
+      },
+      "classes": "escreveu"
+    },
+    {
+      "data": {
+        "id": "e16",
+        "source": "author:potter",
+        "target": "text:potter-2019",
+        "etype": "escreveu"
+      },
+      "classes": "escreveu"
+    },
+    {
+      "data": {
+        "id": "e17",
+        "source": "author:primo",
+        "target": "text:clarke-primo-2004",
+        "etype": "escreveu"
+      },
+      "classes": "escreveu"
+    },
+    {
+      "data": {
+        "id": "e18",
+        "source": "author:queluz",
+        "target": "text:freitas-2020",
+        "etype": "escreveu"
+      },
+      "classes": "escreveu"
+    },
+    {
+      "data": {
+        "id": "e19",
+        "source": "author:sandberg",
+        "target": "text:alvesson-sandberg-2011",
+        "etype": "escreveu"
+      },
+      "classes": "escreveu"
+    },
+    {
+      "data": {
+        "id": "e20",
+        "source": "author:sandberg",
+        "target": "text:sandberg-alvesson-2011",
+        "etype": "escreveu"
+      },
+      "classes": "escreveu"
+    },
+    {
+      "data": {
+        "id": "e21",
+        "source": "author:shvetsova",
+        "target": "text:mershon-shvetsova-2019",
+        "etype": "escreveu"
+      },
+      "classes": "escreveu"
+    },
+    {
+      "data": {
+        "id": "e22",
+        "source": "concept:analise-intracaso-e-condicoes-de-escopo",
+        "target": "concept:sobredeterminacao-do-resultado",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e23",
+        "source": "concept:captura-regulatoria-oculta",
+        "target": "concept:externalidade-fora-do-regime-regulatorio",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e24",
+        "source": "concept:captura-regulatoria-oculta",
+        "target": "concept:teste-de-existencia-e-logicidade",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e25",
+        "source": "concept:comensurabilidade",
+        "target": "concept:similaridade-modelo-alvo",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e26",
+        "source": "concept:comensurabilidade",
+        "target": "concept:tudo-o-mais-constante",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e27",
+        "source": "concept:conhecimento-extante-como-linha-de-base",
+        "target": "concept:externalidade-fora-do-regime-regulatorio",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e28",
+        "source": "concept:conhecimento-extante-como-linha-de-base",
+        "target": "concept:teste-de-existencia-e-logicidade",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e29",
+        "source": "concept:desenho-de-pesquisa",
+        "target": "concept:pergunta-de-pesquisa",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e30",
+        "source": "concept:desenho-de-pesquisa",
+        "target": "concept:universo-relevante",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e31",
+        "source": "concept:desenho-de-pesquisa",
+        "target": "concept:variavel-caso-configuracao",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e32",
+        "source": "concept:dupla-representacao-de-poluidores",
+        "target": "concept:preferencias-transversais",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e33",
+        "source": "concept:externalidade-fora-do-regime-regulatorio",
+        "target": "concept:captura-regulatoria-oculta",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e34",
+        "source": "concept:externalidade-fora-do-regime-regulatorio",
+        "target": "concept:conhecimento-extante-como-linha-de-base",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e35",
+        "source": "concept:gap-spotting",
+        "target": "concept:pergunta-de-pesquisa",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e36",
+        "source": "concept:gap-spotting",
+        "target": "concept:problematizacao",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e37",
+        "source": "concept:gap-spotting",
+        "target": "concept:superproblematizacao",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e38",
+        "source": "concept:hipotese-teorica",
+        "target": "concept:hipotetico-dedutivismo",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e39",
+        "source": "concept:hipotese-teorica",
+        "target": "concept:visao-semantica-das-teorias",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e40",
+        "source": "concept:hipotetico-dedutivismo",
+        "target": "concept:visao-semantica-das-teorias",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e41",
+        "source": "concept:judicializacao",
+        "target": "concept:protocolo-de-revisao",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e42",
+        "source": "concept:mecanismo",
+        "target": "concept:similaridade-modelo-alvo",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e43",
+        "source": "concept:poder-normativo-da-burocracia",
+        "target": "concept:politicagem-procedimental",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e44",
+        "source": "concept:politicagem-procedimental",
+        "target": "concept:poder-normativo-da-burocracia",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e45",
+        "source": "concept:politicagem-procedimental",
+        "target": "concept:principal-agente",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e46",
+        "source": "concept:preferencias-transversais",
+        "target": "concept:dupla-representacao-de-poluidores",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e47",
+        "source": "concept:pressupostos-de-campo",
+        "target": "concept:gap-spotting",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e48",
+        "source": "concept:pressupostos-de-campo",
+        "target": "concept:problematizacao",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e49",
+        "source": "concept:principal-agente",
+        "target": "concept:politicagem-procedimental",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e50",
+        "source": "concept:problematizacao",
+        "target": "concept:gap-spotting",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e51",
+        "source": "concept:problematizacao",
+        "target": "concept:pergunta-de-pesquisa",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e52",
+        "source": "concept:problematizacao",
+        "target": "concept:pressupostos-de-campo",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e53",
+        "source": "concept:protocolo-de-revisao",
+        "target": "concept:revisao-sistematica",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e54",
+        "source": "concept:protocolo-de-revisao",
+        "target": "concept:scoping-review",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e55",
+        "source": "concept:protocolo-de-revisao",
+        "target": "concept:scoping-review",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e56",
+        "source": "concept:scoping-review",
+        "target": "concept:protocolo-de-revisao",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e57",
+        "source": "concept:scoping-review",
+        "target": "concept:revisao-sistematica",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e58",
+        "source": "concept:similaridade-modelo-alvo",
+        "target": "concept:comensurabilidade",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e59",
+        "source": "concept:similaridade-modelo-alvo",
+        "target": "concept:mecanismo",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e60",
+        "source": "concept:similaridade-modelo-alvo",
+        "target": "concept:tudo-o-mais-constante",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e61",
+        "source": "concept:sobredeterminacao-do-resultado",
+        "target": "concept:analise-intracaso-e-condicoes-de-escopo",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e62",
+        "source": "concept:superproblematizacao",
+        "target": "concept:gap-spotting",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e63",
+        "source": "concept:superproblematizacao",
+        "target": "concept:problematizacao",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e64",
+        "source": "concept:teste-de-existencia-e-logicidade",
+        "target": "concept:captura-regulatoria-oculta",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e65",
+        "source": "concept:teste-de-existencia-e-logicidade",
+        "target": "concept:conhecimento-extante-como-linha-de-base",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e66",
+        "source": "concept:tudo-o-mais-constante",
+        "target": "concept:comensurabilidade",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e67",
+        "source": "concept:universo-relevante",
+        "target": "concept:desenho-de-pesquisa",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e68",
+        "source": "concept:universo-relevante",
+        "target": "concept:variavel-caso-configuracao",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e69",
+        "source": "concept:variavel-caso-configuracao",
+        "target": "concept:desenho-de-pesquisa",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e70",
+        "source": "concept:variavel-caso-configuracao",
+        "target": "concept:universo-relevante",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e71",
+        "source": "concept:visao-semantica-das-teorias",
+        "target": "concept:hipotese-teorica",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e72",
+        "source": "concept:visao-semantica-das-teorias",
+        "target": "concept:hipotetico-dedutivismo",
+        "etype": "relaciona_se_com"
+      },
+      "classes": "relaciona_se_com"
+    },
+    {
+      "data": {
+        "id": "e73",
+        "source": "text:alvesson-sandberg-2011",
+        "target": "concept:pressupostos-de-campo",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e74",
+        "source": "text:alvesson-sandberg-2011",
+        "target": "concept:problematizacao",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e75",
+        "source": "text:alvesson-sandberg-2011",
+        "target": "session:s02-03",
+        "etype": "pertence_a_sessao"
+      },
+      "classes": "pertence_a_sessao"
+    },
+    {
+      "data": {
+        "id": "e76",
+        "source": "text:ashworth-berry-bueno-de-mesquita-2021",
+        "target": "concept:comensurabilidade",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e77",
+        "source": "text:ashworth-berry-bueno-de-mesquita-2021",
+        "target": "concept:mecanismo",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e78",
+        "source": "text:ashworth-berry-bueno-de-mesquita-2021",
+        "target": "concept:similaridade-modelo-alvo",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e79",
+        "source": "text:ashworth-berry-bueno-de-mesquita-2021",
+        "target": "concept:tudo-o-mais-constante",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e80",
+        "source": "text:ashworth-berry-bueno-de-mesquita-2021",
+        "target": "session:s01",
+        "etype": "pertence_a_sessao"
+      },
+      "classes": "pertence_a_sessao"
+    },
+    {
+      "data": {
+        "id": "e81",
+        "source": "text:clarke-primo-2004",
+        "target": "concept:hipotese-teorica",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e82",
+        "source": "text:clarke-primo-2004",
+        "target": "concept:hipotetico-dedutivismo",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e83",
+        "source": "text:clarke-primo-2004",
+        "target": "concept:similaridade-modelo-alvo",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e84",
+        "source": "text:clarke-primo-2004",
+        "target": "concept:visao-semantica-das-teorias",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e85",
+        "source": "text:clarke-primo-2004",
+        "target": "session:s01",
+        "etype": "pertence_a_sessao"
+      },
+      "classes": "pertence_a_sessao"
+    },
+    {
+      "data": {
+        "id": "e86",
+        "source": "text:freitas-2020",
+        "target": "concept:judicializacao",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e87",
+        "source": "text:freitas-2020",
+        "target": "concept:protocolo-de-revisao",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e88",
+        "source": "text:freitas-2020",
+        "target": "session:s02-03",
+        "etype": "pertence_a_sessao"
+      },
+      "classes": "pertence_a_sessao"
+    },
+    {
+      "data": {
+        "id": "e89",
+        "source": "text:gustafsson-hagstrom-2017",
+        "target": "concept:pergunta-de-pesquisa",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e90",
+        "source": "text:gustafsson-hagstrom-2017",
+        "target": "session:s02-03",
+        "etype": "pertence_a_sessao"
+      },
+      "classes": "pertence_a_sessao"
+    },
+    {
+      "data": {
+        "id": "e91",
+        "source": "text:hancke-2009",
+        "target": "concept:desenho-de-pesquisa",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e92",
+        "source": "text:hancke-2009",
+        "target": "concept:universo-relevante",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e93",
+        "source": "text:hancke-2009",
+        "target": "concept:variavel-caso-configuracao",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e94",
+        "source": "text:hancke-2009",
+        "target": "session:s02-03",
+        "etype": "pertence_a_sessao"
+      },
+      "classes": "pertence_a_sessao"
+    },
+    {
+      "data": {
+        "id": "e95",
+        "source": "text:mariano-silva-2020",
+        "target": "concept:judicializacao",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e96",
+        "source": "text:mariano-silva-2020",
+        "target": "concept:protocolo-de-revisao",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e97",
+        "source": "text:mariano-silva-2020",
+        "target": "session:s02-03",
+        "etype": "pertence_a_sessao"
+      },
+      "classes": "pertence_a_sessao"
+    },
+    {
+      "data": {
+        "id": "e98",
+        "source": "text:mershon-shvetsova-2019",
+        "target": "concept:captura-regulatoria-oculta",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e99",
+        "source": "text:mershon-shvetsova-2019",
+        "target": "concept:conhecimento-extante-como-linha-de-base",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e100",
+        "source": "text:mershon-shvetsova-2019",
+        "target": "concept:externalidade-fora-do-regime-regulatorio",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e101",
+        "source": "text:mershon-shvetsova-2019",
+        "target": "concept:teste-de-existencia-e-logicidade",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e102",
+        "source": "text:mershon-shvetsova-2019",
+        "target": "session:s01",
+        "etype": "pertence_a_sessao"
+      },
+      "classes": "pertence_a_sessao"
+    },
+    {
+      "data": {
+        "id": "e103",
+        "source": "text:mildenberger-2020",
+        "target": "concept:analise-intracaso-e-condicoes-de-escopo",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e104",
+        "source": "text:mildenberger-2020",
+        "target": "concept:dupla-representacao-de-poluidores",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e105",
+        "source": "text:mildenberger-2020",
+        "target": "concept:preferencias-transversais",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e106",
+        "source": "text:mildenberger-2020",
+        "target": "concept:sobredeterminacao-do-resultado",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e107",
+        "source": "text:mildenberger-2020",
+        "target": "session:s01",
+        "etype": "pertence_a_sessao"
+      },
+      "classes": "pertence_a_sessao"
+    },
+    {
+      "data": {
+        "id": "e108",
+        "source": "text:page-2021",
+        "target": "concept:revisao-sistematica",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e109",
+        "source": "text:page-2021",
+        "target": "session:s02-03",
+        "etype": "pertence_a_sessao"
+      },
+      "classes": "pertence_a_sessao"
+    },
+    {
+      "data": {
+        "id": "e110",
+        "source": "text:peters-2020",
+        "target": "concept:scoping-review",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e111",
+        "source": "text:peters-2020",
+        "target": "session:s02-03",
+        "etype": "pertence_a_sessao"
+      },
+      "classes": "pertence_a_sessao"
+    },
+    {
+      "data": {
+        "id": "e112",
+        "source": "text:potter-2019",
+        "target": "concept:poder-normativo-da-burocracia",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e113",
+        "source": "text:potter-2019",
+        "target": "concept:politicagem-procedimental",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e114",
+        "source": "text:potter-2019",
+        "target": "concept:principal-agente",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e115",
+        "source": "text:potter-2019",
+        "target": "concept:universo-relevante",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e116",
+        "source": "text:potter-2019",
+        "target": "session:s01",
+        "etype": "pertence_a_sessao"
+      },
+      "classes": "pertence_a_sessao"
+    },
+    {
+      "data": {
+        "id": "e117",
+        "source": "text:sandberg-alvesson-2011",
+        "target": "concept:gap-spotting",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e118",
+        "source": "text:sandberg-alvesson-2011",
+        "target": "concept:superproblematizacao",
+        "etype": "desenvolve_conceito"
+      },
+      "classes": "desenvolve_conceito"
+    },
+    {
+      "data": {
+        "id": "e119",
+        "source": "text:sandberg-alvesson-2011",
+        "target": "session:s02-03",
+        "etype": "pertence_a_sessao"
+      },
+      "classes": "pertence_a_sessao"
+    }
+  ],
+  "node_legend": [
+    {
+      "cls": "session",
+      "label": "session",
+      "color": "#f2cc8f",
+      "size": 38,
+      "count": 2
+    },
+    {
+      "cls": "author",
+      "label": "author",
+      "color": "#3d5a80",
+      "size": 34,
+      "count": 20
+    },
+    {
+      "cls": "text",
+      "label": "text",
+      "color": "#e07a5f",
+      "size": 46,
+      "count": 13
+    },
+    {
+      "cls": "legislation",
+      "label": "legislation",
+      "color": "#6d597a",
+      "size": 42,
+      "count": 0
+    },
+    {
+      "cls": "julgado",
+      "label": "case",
+      "color": "#9d0208",
+      "size": 44,
+      "count": 0
+    },
+    {
+      "cls": "concept",
+      "label": "concept",
+      "color": "#81b29a",
+      "size": 52,
+      "count": 30
+    }
+  ],
+  "note_legend": [
+    {
+      "cls": "note-fugaz",
+      "label": "fleeting note",
+      "color": "#9aa0a6",
+      "count": 0
+    },
+    {
+      "cls": "note-literaria",
+      "label": "literature note",
+      "color": "#3d5a80",
+      "count": 0
+    },
+    {
+      "cls": "note-permanente",
+      "label": "permanent note",
+      "color": "#81b29a",
+      "count": 30
+    },
+    {
+      "cls": "note-projeto",
+      "label": "project note",
+      "color": "#f2cc8f",
+      "count": 0
+    },
+    {
+      "cls": "note-referencia",
+      "label": "reference note",
+      "color": "#9b5de5",
+      "count": 0
+    }
+  ],
+  "edge_legend": [
+    {
+      "label": "wrote",
+      "color": "#3d5a80"
+    },
+    {
+      "label": "belongs to session",
+      "color": "#c9a227"
+    },
+    {
+      "label": "develops concept",
+      "color": "#4d8067"
+    },
+    {
+      "label": "cites",
+      "color": "#9b5de5"
+    },
+    {
+      "label": "relates to",
+      "color": "#c1503a"
+    },
+    {
+      "label": "defines concept",
+      "color": "#6d597a"
+    },
+    {
+      "label": "instantiates concept",
+      "color": "#9d0208"
+    }
+  ]
+}

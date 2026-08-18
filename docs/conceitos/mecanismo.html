@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Mecanismo, Desenhos e Técnicas Avançadas de Pesquisa 2026.2 wiki</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+:root{--bg:#f8f9fa;--fg:#202122;--muted:#54595d;--card:#ffffff;--border:#a2a9b1;
+--link:#3366cc;--link-quebrado:#bf3c2c;--th:#eaecf0;--accent:#6d597a;
+/* A BARRA LATERAL TEM DOIS TAMANHOS, e nao oito (16/08/2026). Antes conviviam 14px na
+   barra e sete valores em `rem` nos filhos, e `rem` se mede pela RAIZ de 16px, e nao pela
+   barra: davam de 10,9 a 14px sem criterio visivel. Agora a barra declara a base aqui e
+   todo filho mede em `em`, isto e, em relacao a ela, de modo que mexer nestas duas linhas
+   move o conjunto inteiro. `--barra-rotulo` e o unico tamanho menor, e vale so para
+   caixa alta: AUTORES, CONCEITOS, TEXTOS, o titulo do indice e o tipo do resultado. */
+--barra-texto:16px;--barra-rotulo:0.8em;}
+:root[data-theme="dark"]{--bg:#101418;--fg:#eaecf0;--muted:#a2a9b1;--card:#1b1f24;
+--border:#404a55;--link:#88a9e0;--link-quebrado:#e08a7d;--th:#27303a;}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#101418;--fg:#eaecf0;
+--muted:#a2a9b1;--card:#1b1f24;--border:#404a55;--link:#88a9e0;--link-quebrado:#e08a7d;--th:#27303a;}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+font-size:16px;line-height:26px;}
+.layout{display:flex;max-width:1180px;margin:0 auto;min-height:100vh;}
+nav.sidebar{width:230px;flex-shrink:0;padding:1.4rem 1rem;border-right:1px solid var(--border);
+font-size:var(--barra-texto);line-height:1.5;}
+nav.sidebar a{display:block;color:var(--link);text-decoration:none;padding:0.18rem 0;}
+nav.sidebar a:hover{text-decoration:underline;}
+nav.sidebar .area{margin-top:1rem;font-weight:700;font-size:var(--barra-rotulo);text-transform:uppercase;letter-spacing:0.04em;color:var(--muted);}
+main{flex:1;padding:1.6rem 2.2rem;max-width:740px;background:var(--card);border-left:1px solid var(--border);}
+h1{font-family:"Linux Libertine", Georgia, Times, "Source Serif 4", serif;font-size:28.8px;font-weight:400;line-height:1.3;
+margin:0 0 0.25rem;padding-bottom:0.25rem;border-bottom:1px solid var(--border);}
+h2{font-family:"Linux Libertine", Georgia, Times, "Source Serif 4", serif;font-size:24px;font-weight:400;line-height:1.3;
+margin:1.6rem 0 0.4rem;padding-bottom:0.25rem;border-bottom:1px solid var(--border);}
+h3{font-family:-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;font-size:19.2px;font-weight:700;margin:1.2rem 0 0.3rem;}
+p{margin:0 0 16px;}
+a{color:var(--link);text-decoration:none;}
+a:hover{text-decoration:underline;}
+.meta{color:var(--muted);font-size:0.85rem;margin-bottom:1.1rem;}
+.futura{color:var(--muted);}
+.controles{position:fixed;top:0.8rem;right:1.2rem;display:flex;gap:0.5rem;z-index:10;}
+.controles button{font-size:0.95rem;min-height:44px;padding:0.55rem 1.1rem;
+background:#3366cc;color:#ffffff;border:1px solid #26489a;border-radius:4px;
+font-weight:600;cursor:pointer;}
+.controles button:hover{background:#26489a;}
+.controles button:focus-visible{outline:3px solid #ffffff;outline-offset:2px;}
+:root[data-theme="dark"] .controles button{background:#4a7fe0;border-color:#3366cc;}
+/* Visitante de primeira vez, localStorage vazio, SO do escuro: sem isto os botoes ficavam
+   azul-claro num fundo escuro ate o primeiro clique, porque o -toggle so troca de cor via
+   [data-theme], e essa marca so existe depois de JS rodar. .theme-toggle (removida em
+   12/08/2026, achado de revisao de codigo) resolvia isto de graca com var(--card)/var(--fg),
+   que ja seguem o media query da linha 198; a troca para .controles perdeu isso, e este bloco
+   devolve o mesmo comportamento pelo mesmo mecanismo. */
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .controles button{
+  background:#4a7fe0;border-color:#3366cc;}}
+.badge{display:inline-block;background:var(--th);border:1px solid var(--border);border-radius:2px;padding:0.05rem 0.4rem;margin-right:0.3rem;font-size:0.76rem;color:var(--fg);}
+a.badge{text-decoration:none;}
+.broken-link{color:var(--link-quebrado);border-bottom:1px dotted var(--link-quebrado);cursor:help;}
+blockquote{margin:0.8rem 0;padding:0.4rem 1rem;border-left:3px solid var(--border);color:var(--muted);}
+.rel-list{list-style:none;padding:0;font-size:0.94rem;}
+.rel-list li{margin-bottom:0.3rem;padding:0.35rem 0.55rem;background:var(--bg);border:1px solid var(--border);border-radius:2px;}
+.rel-etype{font-size:0.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:0.03em;}
+footer{font-size:0.78rem;color:var(--muted);margin-top:2.5rem;padding-top:0.8rem;border-top:1px solid var(--border);}
+.busca-campo{width:100%;margin:0.5rem 0 0.2rem;padding:0.3rem 0.45rem;font-size:1em;border:1px solid var(--border);border-radius:2px;background:var(--card);color:var(--fg);}
+.selo{display:inline-block;min-width:1.15em;text-align:center;font-size:0.82em;line-height:1.2;
+ padding:0 0.22em;border-radius:3px;vertical-align:baseline;cursor:help;border:1px solid transparent;}
+.selo-fato{color:#14866d;border-color:#bfe3d9;background:rgba(20,134,109,0.07);}
+.selo-inferencia{color:#8a6d1f;border-color:#e6d7a8;background:rgba(138,109,31,0.07);}
+.selo-pendente{color:#9a3b3b;border-color:#e7c3c3;background:rgba(154,59,59,0.07);}
+.busca-resultados{margin:0 0 0.5rem;max-height:40vh;overflow-y:auto;border:1px solid var(--border);border-radius:2px;background:var(--card);}
+.busca-resultados a{display:block;padding:0.3rem 0.45rem;font-size:1em;line-height:1.3;border-bottom:1px solid var(--border);}
+.busca-resultados a:last-child{border-bottom:none;}
+.busca-resultados .bq-tipo{display:block;font-size:var(--barra-rotulo);opacity:0.7;}
+.busca-resultados .bq-nada{padding:0.35rem 0.45rem;font-size:1em;opacity:0.75;}
+.mencao-trecho{font-size:0.84rem;color:var(--muted);margin-top:0.2rem;}
+.ficha{list-style:none;padding:0.6rem 0.9rem;margin:0 0 1.1rem;background:var(--bg);border:1px solid var(--border);border-radius:2px;font-size:0.86rem;}
+.ficha li{margin:0.12rem 0;}
+#cy-local{width:100%;height:340px;border:1px solid var(--border);border-radius:2px;background:var(--bg);margin-top:0.4rem;}
+table{border-collapse:collapse;width:100%;font-size:0.94rem;margin:0.6rem 0;}
+th,td{border:1px solid var(--border);padding:0.4rem 0.55rem;text-align:left;vertical-align:top;}
+th{background:var(--th);font-weight:700;}
+/* o indice vem ANTES da navegacao no <nav> (ver _render_page), como na Wikipedia -- por isso o
+   separador fica embaixo dele, e nao em cima: quem separa o indice da lista de verbetes e a borda
+   de baixo. */
+.toc{margin-bottom:1.2rem;padding-bottom:0.8rem;border-bottom:1px solid var(--border);font-size:1em;}
+.toc-titulo{font-weight:700;font-size:var(--barra-rotulo);text-transform:uppercase;letter-spacing:0.04em;color:var(--muted);margin-bottom:0.3rem;}
+.toc ul{list-style:none;padding-left:0;margin:0;}
+.toc ul ul{padding-left:0.8rem;}
+.toc li{margin:0.12rem 0;}
+nav.sidebar{position:sticky;top:0;align-self:flex-start;max-height:100vh;overflow-y:auto;}
+</style>
+</head>
+<body>
+<div class="controles"><button id="lang-toggle" onclick="toggleLang()">EN / PT</button><button onclick="toggleWikiTheme()">Light/Dark</button></div>
+<div class="layout">
+<nav class="sidebar"><nav class="toc"><div class="toc-titulo">Conteúdo</div><ul><li><a href="#sec-o-mecanismo-do-conceito-isto-e-como-se-descobre-um">O mecanismo do conceito, isto é, como se descobre um</a></li><li><a href="#sec-contraste-com-mecanismo-como-causa-intermediaria">Contraste com mecanismo como causa intermediária</a></li><li><a href="#sec-por-que-o-mecanismo-depende-da-similaridade">Por que o mecanismo depende da similaridade</a></li></ul></nav><a href="../index.html"><strong><span data-chrome-lang="en">Desenhos e Técnicas Avançadas de Pesquisa 2026.2, wiki</span><span data-chrome-lang="pt" hidden>Wiki Desenhos e Técnicas Avançadas de Pesquisa 2026.2</span></strong></a>
+<a href="../graph.html"><span data-chrome-lang="en">View the concept graph</span><span data-chrome-lang="pt" hidden>Ver o grafo de conceitos</span></a>
+<a href="../tags.html"><span data-chrome-lang="en">Index by tag</span><span data-chrome-lang="pt" hidden>Índice por tag</span></a>
+<input id="busca-campo" type="search" placeholder="search..." data-alvo="../busca.html" data-indice="../busca.json" data-prefixo="../" class="busca-campo">
+<div id="busca-resultados" class="busca-resultados" hidden></div>
+<div class="area"><span data-chrome-lang="en">Sessions</span><span data-chrome-lang="pt" hidden>Sessões</span></div>
+<a href="../sessoes/s01.html">Desenho de pesquisa e estudos empíricos em regulação</a>
+<a href="../sessoes/s02-03.html">Problema de pesquisa e revisão bibliográfica replicável</a>
+<div class="area"><span data-chrome-lang="en">Authors</span><span data-chrome-lang="pt" hidden>Autores</span></div>
+<a href="../autores/freitas.html">Beatriz Cristina de Freitas</a>
+<a href="../autores/hancke.html">Bob Hancke</a>
+<a href="../autores/mershon.html">Carol Mershon</a>
+<a href="../autores/berry.html">Christopher R. Berry</a>
+<a href="../autores/queluz.html">Dagmar de Paula Queluz</a>
+<a href="../autores/primo.html">David M. Primo</a>
+<a href="../autores/fonseca.html">Emílio Prado da Fonseca</a>
+<a href="../autores/bueno-de-mesquita.html">Ethan Bueno de Mesquita</a>
+<a href="../autores/mariano-silva.html">Jeferson Mariano Silva</a>
+<a href="../autores/sandberg.html">Jorgen Sandberg</a>
+<a href="../autores/gustafsson.html">Karl Gustafsson</a>
+<a href="../autores/clarke.html">Kevin A. Clarke</a>
+<a href="../autores/hagstrom.html">Linus Hagstrom</a>
+<a href="../autores/alvesson.html">Mats Alvesson</a>
+<a href="../autores/page.html">Matthew J. Page</a>
+<a href="../autores/mildenberger.html">Matto Mildenberger</a>
+<a href="../autores/peters.html">Micah D. J. Peters</a>
+<a href="../autores/shvetsova.html">Olga Shvetsova</a>
+<a href="../autores/potter.html">Rachel Augustine Potter</a>
+<a href="../autores/ashworth.html">Scott Ashworth</a>
+<div class="area"><span data-chrome-lang="en">Texts</span><span data-chrome-lang="pt" hidden>Textos</span></div>
+<a href="../textos/freitas-2020.html">A Judicialização da saúde nos sistemas público e privado de saúde: uma revisão sistemática</a>
+<a href="../textos/potter-2019.html">Bending the Rules: Procedural Politicking in the Bureaucracy</a>
+<a href="../textos/mildenberger-2020.html">Carbon Captured: How Business and Labor Control Climate Politics</a>
+<a href="../textos/mariano-silva-2020.html">Depois da “judicialização”: um mapa bibliográfico do Supremo</a>
+<a href="../textos/mershon-shvetsova-2019.html">Formal Modeling in Social Science, cap. 5: Industry Regulation</a>
+<a href="../textos/alvesson-sandberg-2011.html">Generating Research Questions Through Problematization</a>
+<a href="../textos/hancke-2009.html">Intelligent Research Design: A Guide for Beginning Researchers in the Social Sciences</a>
+<a href="../textos/page-2021.html">The PRISMA 2020 statement: an updated guideline for reporting systematic reviews</a>
+<a href="../textos/clarke-primo-2004.html">The Theoretical Implications of the Empirical Implications of Theoretical Models</a>
+<a href="../textos/ashworth-berry-bueno-de-mesquita-2021.html">Theory and Credibility: Integrating Theoretical and Empirical Social Science</a>
+<a href="../textos/peters-2020.html">Updated methodological guidance for the conduct of scoping reviews</a>
+<a href="../textos/sandberg-alvesson-2011.html">Ways of constructing research questions: gap-spotting or problematization?</a>
+<a href="../textos/gustafsson-hagstrom-2017.html">What is the Point? Teaching Graduate Students How to Construct Political Science Research Puzzles</a>
+<div class="area"><span data-chrome-lang="en">Concepts</span><span data-chrome-lang="pt" hidden>Conceitos</span></div>
+<a href="analise-intracaso-e-condicoes-de-escopo.html">Análise intracaso e condições de escopo</a>
+<a href="captura-regulatoria-oculta.html">Captura regulatória oculta</a>
+<a href="comensurabilidade.html">Comensurabilidade</a>
+<a href="conhecimento-extante-como-linha-de-base.html">Conhecimento extante como linha de base</a>
+<a href="desenho-de-pesquisa.html">Desenho de pesquisa</a>
+<a href="dupla-representacao-de-poluidores.html">Dupla representação de poluidores</a>
+<a href="externalidade-fora-do-regime-regulatorio.html">Externalidade fora do regime regulatório</a>
+<a href="gap-spotting.html">Gap-spotting</a>
+<a href="hipotetico-dedutivismo.html">Hipotético-dedutivismo</a>
+<a href="hipotese-teorica.html">Hipótese teórica</a>
+<a href="judicializacao.html">Judicialização</a>
+<a href="mecanismo.html">Mecanismo</a>
+<a href="pergunta-de-pesquisa.html">Pergunta de pesquisa</a>
+<a href="poder-normativo-da-burocracia.html">Poder normativo da burocracia</a>
+<a href="politicagem-procedimental.html">Politicagem procedimental</a>
+<a href="preferencias-transversais.html">Preferências transversais</a>
+<a href="pressupostos-de-campo.html">Pressupostos de campo</a>
+<a href="principal-agente.html">Principal-agente</a>
+<a href="problematizacao.html">Problematização</a>
+<a href="protocolo-de-revisao.html">Protocolo de revisão</a>
+<a href="revisao-sistematica.html">Revisão sistemática</a>
+<a href="scoping-review.html">Scoping review</a>
+<a href="similaridade-modelo-alvo.html">Similaridade entre modelo e alvo</a>
+<a href="sobredeterminacao-do-resultado.html">Sobredeterminação do resultado</a>
+<a href="superproblematizacao.html">Superproblematização</a>
+<a href="teste-de-existencia-e-logicidade.html">Teste de Existência e Logicidade</a>
+<a href="tudo-o-mais-constante.html">Tudo o mais constante</a>
+<a href="universo-relevante.html">Universo relevante</a>
+<a href="variavel-caso-configuracao.html">Variável, caso e configuração</a>
+<a href="visao-semantica-das-teorias.html">Visão semântica das teorias</a></nav>
+<main>
+<h1>Mecanismo</h1>
+<div class="meta">type: concept &middot; zettel 5b<br></div>
+<ul class="ficha"><li><strong><span data-chrome-lang="en">in this corpus</span><span data-chrome-lang="pt" hidden>neste corpus</span>:</strong> <span data-chrome-lang="en">2 point to it, 1 leave it</span><span data-chrome-lang="pt" hidden>2 apontam para ele, 1 saem dele</span></li></ul>
+<p id="aviso-sem-traducao" class="meta" hidden>This entry has not been translated yet. The Portuguese text is shown below.</p>
+<div data-lang="pt"><p>Resposta a uma pergunta do tipo por quê. A definição é literal em Ashworth, Berry e Bueno de
+Mesquita (2021), na p. 65 do espelho (p. 46 impressa), e o contraste que a esclarece está na mesma
+página: no debate sobre a sub-representação de mulheres há acordo sobre as perguntas do tipo o
+quê, já que mulheres concorrem menos e vencem menos, e desacordo sobre a pergunta do tipo por quê,
+que é se isso decorre de viés do eleitor, de diferença de percepção, ou de ambos. O desacordo é
+sobre mecanismos.</p>
+<h2 id="sec-o-mecanismo-do-conceito-isto-e-como-se-descobre-um">O mecanismo do conceito, isto é, como se descobre um</h2>
+<p>Saber que o mecanismo é a resposta a um porquê não diz qual traço do modelo o produz. O
+procedimento está na p. 67 do espelho (p. 48 impressa): considerar modelos vizinhos, parecidos em
+muitos aspectos e diferentes em outros, até identificar os traços cruciais. Esse processo de
+exploração é o que determina quais traços do modelo constituem o mecanismo. Não é leitura da
+intenção do autor do modelo, nem inspeção das suposições listadas: é comparação entre modelos.</p>
+<p>O exemplo curto está na p. 68 do espelho (p. 49 impressa). Zerada a diferença de percepção no
+modelo do capítulo 2, mulheres passam a concorrer tanto quanto homens, a eleger-se na mesma taxa e
+a ter o mesmo desempenho esperado. Como os três resultados dependem dela, a diferença de percepção
+é o mecanismo que os produz.</p>
+<p>O exemplo instrutivo ocupa as p. 69 a 71 do espelho (p. 50 a 52 impressas) e mostra o método
+derrubando uma intuição consagrada. No modelo canônico de delegação com perda quadrática, a
+explicação usual atribui o princípio do aliado e o efeito da incerteza a duas propriedades da
+função de utilidade, aversão à distância e aversão a risco. Bendor e Meirowitz constroem o modelo
+vizinho que mantém a aversão à distância e nada supõe sobre atitude diante do risco, e os dois
+resultados sobrevivem. A aversão a risco, portanto, não faz parte do mecanismo, e o que explica o
+efeito da incerteza é que espalhar a distribuição dos choques torna mais provável um resultado
+distante do ponto preferido do principal.</p>
+<h2 id="sec-contraste-com-mecanismo-como-causa-intermediaria">Contraste com mecanismo como causa intermediária</h2>
+<p>O livro distingue esse uso de outro, corrente na literatura empírica, nas p. 71 e 72 do espelho
+(p. 52 e 53 impressas): mecanismo como causa intermediária, ou mediador, que é o que a análise de
+mediação causal procura estimar. Se o trabalho de porta a porta aumenta o comparecimento, dizer
+que ele aumentou a consciência sobre a eleição e que isso elevou o comparecimento é responder ao
+porquê por mediação. Os autores tratam as duas abordagens como respostas legítimas à mesma
+espécie de pergunta, e não escolhem entre elas: para quem constrói modelo, é natural responder
+pelos traços que dirigem o resultado; para quem estima efeito causal, é natural responder por
+causa intermediária. O ganho da visão integrada é que o mecanismo tem implicações variadas, sobre
+mediadores, sobre moderadores e sobre outras relações, e qualquer uma delas pode ser confrontada
+com evidência. Na p. 49 do espelho (p. 30 impressa), a vantagem declarada dessa via indireta é
+evitar parte das suposições fortes de que a análise de mediação causal depende.</p>
+<h2 id="sec-por-que-o-mecanismo-depende-da-similaridade">Por que o mecanismo depende da similaridade</h2>
+<p>Mecanismo dentro do modelo não é mecanismo no mundo. Na p. 66 do espelho (p. 47 impressa), a
+<a href="../conceitos/similaridade-modelo-alvo.html">similaridade</a> só se sustenta se os mecanismos, e não apenas os atores
+e as situações, forem traços representacionais: semelhança descritiva entre as pessoas do modelo e
+as do mundo não basta se o mecanismo não representar nada. E, na p. 75 do espelho (p. 56
+impressa), as duas virtudes que um bom modelo persegue derivam disso: dar para ver quais traços
+são cruciais para quais resultados, o que é transparência, e ter traços substantivamente
+interpretáveis, para que a afirmação de similaridade possa ser discutida.</p>
+<p>Três caminhos práticos são oferecidos para isso. Apoiar-se em mecanismos já bem compreendidos,
+como sinalização, risco moral, externalidade, seleção, compromisso e coordenação, na p. 76 do
+espelho (p. 57 impressa), o que facilita ver analogia entre fenômenos distintos. Trabalhar de modo
+incremental sobre modelo canônico, para ter marco de comparação, nas p. 77 e 78 (p. 58 e 59
+impressas), com Calvert alterando uma peça por vez do modelo de Downs até tornar transparente que
+a divergência de plataformas exige as duas alterações juntas. E buscar as suposições mais gerais e
+substantivas sob as quais a implicação vale, nas p. 79 a 83 (p. 60 a 64 impressas), onde a
+releitura de Olson por Esteban e Ray mostra que a conclusão sobre eficácia do interesse difuso
+dependia de uma forma funcional com conteúdo substantivo escondido, enquanto a conclusão sobre
+contribuição individual sobrevive à generalização e é, por isso, a implicação pertinente.</p></div>
+
+
+<h2><span data-chrome-lang="en">Relations</span><span data-chrome-lang="pt" hidden>Relações</span></h2><ul class="rel-list"><li><span class="rel-etype">-> relates to</span> <a href="../conceitos/similaridade-modelo-alvo.html">Similaridade entre modelo e alvo</a></li><li><span class="rel-etype"><- develops concept</span> <a href="../textos/ashworth-berry-bueno-de-mesquita-2021.html">Theory and Credibility: Integrating Theoretical and Empirical Social Science</a></li><li><span class="rel-etype"><- relates to</span> <a href="../conceitos/similaridade-modelo-alvo.html">Similaridade entre modelo e alvo</a></li></ul>
+<h2><span data-chrome-lang="en">Mentioned without a link in</span><span data-chrome-lang="pt" hidden>Mencionado sem link em</span></h2><ul class="rel-list"><li><a href="../conceitos/analise-intracaso-e-condicoes-de-escopo.html">Análise intracaso e condições de escopo</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…asos que apontam para lados opostos. A análise intracaso identifica o mecanismo causal; a comparação entre casos delimita as condições sob as quais a…</div></li><li><a href="../conceitos/captura-regulatoria-oculta.html">Captura regulatória oculta</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…principais com interesses conflitantes é a essência do modelo. ## O mecanismo O ponto de partida é a decisão de modelagem enunciada na p. 137 do e…</div></li><li><a href="../conceitos/comensurabilidade.html">Comensurabilidade</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…verem a mesma relação, e não relações apenas parecidas de nome. ## O mecanismo A comensurabilidade é o terceiro elo do quadro do livro, ao lado das…</div></li><li><a href="../conceitos/conhecimento-extante-como-linha-de-base.html">Conhecimento extante como linha de base</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…hecimento de base que todos os cientistas sociais compartilham. ## O mecanismo A operação não é de economia de esforço, é de mudança de estatuto de…</div></li><li><a href="../conceitos/desenho-de-pesquisa.html">Desenho de pesquisa</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…se vai olhar e ao tipo de conclusão que esse material autoriza. ## O mecanismo Hancké faz o desenho depender da pergunta, e não do inverso. No capí…</div></li><li><a href="../conceitos/dupla-representacao-de-poluidores.html">Dupla representação de poluidores</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…ele já está dentro dos dois blocos que se alternam no governo. ## O mecanismo, em duas peças A primeira peça é a distribuição de preferências. Por…</div></li><li><a href="../conceitos/externalidade-fora-do-regime-regulatorio.html">Externalidade fora do regime regulatório</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…scadores de subsistência das comunidades ribeirinhas do Alasca. ## O mecanismo O ponto que faz o conceito valer mais do que a constatação do dano é…</div></li><li><a href="../conceitos/gap-spotting.html">Gap-spotting</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…iva a um campo (p. 7 a p. 10 do espelho, p. 28 a p. 31 impressas). O mecanismo que interessa não é a taxonomia, e sim a lógica que ela revela. O gap…</div></li><li><a href="../conceitos/hipotese-teorica.html">Hipótese teórica</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…o terceiro dos quatro termos da . ## Por que ela precisa existir O mecanismo aparece quando se junta este verbete ao anterior. Na p. 12 do espelho…</div></li><li><a href="../conceitos/hipotetico-dedutivismo.html">Hipotético-dedutivismo</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…ciência política é explicado na p. 5 do espelho (p. 4 impressa), e o mecanismo importa mais que a genealogia. Os modelos matemáticos dos cientistas…</div></li><li><a href="../conceitos/judicializacao.html">Judicialização</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…ram ao que dizem está declarado a ponto de outra pessoa refazê-lo. O mecanismo que dá tração analítica ao conceito é a separação entre duas origens…</div></li><li><a href="../conceitos/pergunta-de-pesquisa.html">Pergunta de pesquisa</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…e pesquisa; só a primeira só existe em relação ao que já foi dito. O mecanismo que a torna a peça de governo do desenho é a ordem de dependência. Es…</div></li><li><a href="../conceitos/poder-normativo-da-burocracia.html">Poder normativo da burocracia</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…iado por regras administrativas editadas por agências federais. ## O mecanismo jurídico O número acima é resultado, e resultado sem mecanismo vira…</div></li><li><a href="../conceitos/politicagem-procedimental.html">Politicagem procedimental</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…garantir que as políticas preferidas pelo burocrata sobrevivam. ## O mecanismo O que faz o conceito funcionar é uma inversão declarada no mesmo blo…</div></li><li><a href="../conceitos/preferencias-transversais.html">Preferências transversais</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…stabelecidas (bloco `## p. 34` do espelho, página impressa 20). ## O mecanismo: a linha de corte é a exposição ao custo, e não o valor professado O…</div></li><li><a href="../conceitos/principal-agente.html">Principal-agente</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…ara explicar o dilema de um empregador diante de seu empregado. ## O mecanismo A engrenagem tem quatro peças encadeadas, expostas no bloco `## p. 2…</div></li><li><a href="../conceitos/protocolo-de-revisao.html">Protocolo de revisão</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…transparentes e auditáveis (p. 6 do espelho de Peters e colegas). O mecanismo é o mesmo de qualquer instrumento de medida: o protocolo transfere a…</div></li><li><a href="../conceitos/sobredeterminacao-do-resultado.html">Sobredeterminação do resultado</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…desenho: esse resultado não pode servir de variável dependente. ## O mecanismo O ideal declarado seria avaliar políticas climáticas pela capacidade…</div></li><li><a href="../conceitos/superproblematizacao.html">Superproblematização</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…do espelho, p. 31 impressa, endossando Davis e Bartunek e outros). O mecanismo é o mesmo que faz a valer a pena, lido no sentido inverso. Uma teor…</div></li><li><a href="../conceitos/teste-de-existencia-e-logicidade.html">Teste de Existência e Logicidade</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…atisfeita. A ordem não é estilística: é o conteúdo do conceito. ## O mecanismo O capítulo deriva, na p. 143 do espelho (p. 124 impressa), a condiçã…</div></li><li><a href="../conceitos/tudo-o-mais-constante.html">Tudo o mais constante</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…s, e que em nenhum deles o &quot;tudo&quot; deve ser lido ao pé da letra. ## O mecanismo no lado teórico Modelos se compõem de primitivos, que são as entrada…</div></li><li><a href="../conceitos/universo-relevante.html">Universo relevante</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…a por generalização a partir de um caso, seja pela convicção de que o mecanismo causal identificado ajuda a entender casos não estudados. Delimitar o…</div></li><li><a href="../conceitos/variavel-caso-configuracao.html">Variável, caso e configuração</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…método de resposta e o tipo de conclusão que se pode oferecer. ## O mecanismo Hancké constrói a distinção pela via do contraste entre duas família…</div></li><li><a href="../conceitos/visao-semantica-das-teorias.html">Visão semântica das teorias</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…gulos, utilidade que a p. 11 (p. 10 impressa) liga à navegação. ## O mecanismo, em quatro termos O aparato aparece nas p. 12 e 13 do espelho (p. 11…</div></li><li><a href="../textos/alvesson-sandberg-2011.html">Generating Research Questions Through Problematization</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…prevalência do , não para sustentar o que a problematização é. ## O mecanismo O artigo não opõe problematização e gap-spotting como incompatíveis.…</div></li><li><a href="../textos/clarke-primo-2004.html">The Theoretical Implications of the Empirical Implications of Theoretical Models</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…ositivistas lógicos, fora de circulação há quase quarenta anos. ## O mecanismo que ele ataca A definição está na p. 3 do espelho (p. 2 impressa), n…</div></li><li><a href="../textos/freitas-2020.html">A Judicialização da saúde nos sistemas público e privado de saúde: uma revisão sistemática</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…nto, o que é um achado sobre a literatura, e não sobre o fenômeno. O mecanismo que o artigo empresta de Schulze e Neto, na p. 10, separa dois caminh…</div></li><li><a href="../textos/gustafsson-hagstrom-2017.html">What is the Point? Teaching Graduate Students How to Construct Political Science Research Puzzles</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…tra que nenhuma das três basta (p. 2 do espelho, p. 635 impressa). O mecanismo que eles propõem no lugar é a construção de um *research puzzle*, com…</div></li><li><a href="../textos/hancke-2009.html">Intelligent Research Design: A Guide for Beginning Researchers in the Social Sciences</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…mostrar que as duas famílias respondem a perguntas diferentes. ## O mecanismo do capítulo: a pergunta seleciona a família de método O argumento ro…</div></li><li><a href="../textos/mariano-silva-2020.html">Depois da “judicialização”: um mapa bibliográfico do Supremo</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…rque é ele que torna o mapa conferível por outra pessoa. Ver . ## O mecanismo da seleção, em quatro etapas O procedimento está na seção II, na p.…</div></li><li><a href="../textos/mershon-shvetsova-2019.html">Formal Modeling in Social Science, cap. 5: Industry Regulation</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…os modelos como constantes conhecidas em vez de serem remodeladas. O mecanismo tem duas peças, e a segunda é a que costuma ser esquecida. A primeira…</div></li><li><a href="../textos/mildenberger-2020.html">Carbon Captured: How Business and Labor Control Climate Politics</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…Inference&quot; separa o que muitos projetos misturam. A identificação de mecanismo se faz por análise intracaso, com rastreamento de processo, e é decla…</div></li><li><a href="../textos/page-2021.html">The PRISMA 2020 statement: an updated guideline for reporting systematic reviews</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…hados de estudos que respondem a uma pergunta claramente formulada. O mecanismo está nos três adjetivos, e não no rótulo: método **explícito** (escri…</div></li><li><a href="../textos/peters-2020.html">Updated methodological guidance for the conduct of scoping reviews</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…review approach&quot;, no bloco `## p. 3` do espelho (p. 2121 impressa). O mecanismo declarado é a intenção do autor, não o tamanho da literatura: se a re…</div></li><li><a href="../textos/potter-2019.html">Bending the Rules: Procedural Politicking in the Bureaucracy</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…cada resultado isolado. A terceira é a **contribuição enunciada como mecanismo, e não como achado**. No bloco `## p. 32` (página impressa 18) a comp…</div></li><li><a href="../textos/sandberg-alvesson-2011.html">Ways of constructing research questions: gap-spotting or problematization?</a> <span class="rel-etype">Mecanismo</span><div class="mencao-trecho">…p. 28 a p. 31 impressas). O modo mais comum é o neglect spotting. O mecanismo do argumento central está na relação entre a lógica do gap-spotting e…</div></li></ul>
+<h2><span data-chrome-lang="en">Neighbourhood in the graph</span><span data-chrome-lang="pt" hidden>Vizinhança no grafo</span></h2>
+<div id="cy-local"></div>
+<script>window.__LOCAL__ = {"nodes": [{"data": {"id": "author:ashworth", "label": "Scott Ashworth", "href": "../autores/ashworth.html", "foco": "0"}, "classes": "author"}, {"data": {"id": "author:berry", "label": "Christopher R. Berry", "href": "../autores/berry.html", "foco": "0"}, "classes": "author"}, {"data": {"id": "author:bueno-de-mesquita", "label": "Ethan Bueno de Mesquita", "href": "../autores/bueno-de-mesquita.html", "foco": "0"}, "classes": "author"}, {"data": {"id": "concept:comensurabilidade", "label": "Comensurabilidade", "href": "../conceitos/comensurabilidade.html", "foco": "0"}, "classes": "concept"}, {"data": {"id": "concept:mecanismo", "label": "Mecanismo", "href": "../conceitos/mecanismo.html", "foco": "1"}, "classes": "concept foco"}, {"data": {"id": "concept:similaridade-modelo-alvo", "label": "Similaridade entre modelo e alvo", "href": "../conceitos/similaridade-modelo-alvo.html", "foco": "0"}, "classes": "concept"}, {"data": {"id": "concept:tudo-o-mais-constante", "label": "Tudo o mais constante", "href": "../conceitos/tudo-o-mais-constante.html", "foco": "0"}, "classes": "concept"}, {"data": {"id": "session:s01", "label": "Desenho de pesquisa e estudos empíricos em regulação", "href": "../sessoes/s01.html", "foco": "0"}, "classes": "session"}, {"data": {"id": "text:ashworth-berry-bueno-de-mesquita-2021", "label": "Theory and Credibility: Integrating Theoretical and Empirical Social Science", "href": "../textos/ashworth-berry-bueno-de-mesquita-2021.html", "foco": "0"}, "classes": "text"}, {"data": {"id": "text:clarke-primo-2004", "label": "The Theoretical Implications of the Empirical Implications of Theoretical Models", "href": "../textos/clarke-primo-2004.html", "foco": "0"}, "classes": "text"}], "edges": [{"data": {"id": "le0", "source": "author:ashworth", "target": "text:ashworth-berry-bueno-de-mesquita-2021"}, "classes": "escreveu"}, {"data": {"id": "le1", "source": "author:berry", "target": "text:ashworth-berry-bueno-de-mesquita-2021"}, "classes": "escreveu"}, {"data": {"id": "le2", "source": "author:bueno-de-mesquita", "target": "text:ashworth-berry-bueno-de-mesquita-2021"}, "classes": "escreveu"}, {"data": {"id": "le3", "source": "concept:comensurabilidade", "target": "concept:similaridade-modelo-alvo"}, "classes": "relaciona_se_com"}, {"data": {"id": "le4", "source": "concept:comensurabilidade", "target": "concept:tudo-o-mais-constante"}, "classes": "relaciona_se_com"}, {"data": {"id": "le5", "source": "concept:mecanismo", "target": "concept:similaridade-modelo-alvo"}, "classes": "relaciona_se_com"}, {"data": {"id": "le6", "source": "concept:similaridade-modelo-alvo", "target": "concept:comensurabilidade"}, "classes": "relaciona_se_com"}, {"data": {"id": "le7", "source": "concept:similaridade-modelo-alvo", "target": "concept:mecanismo"}, "classes": "relaciona_se_com"}, {"data": {"id": "le8", "source": "concept:similaridade-modelo-alvo", "target": "concept:tudo-o-mais-constante"}, "classes": "relaciona_se_com"}, {"data": {"id": "le9", "source": "concept:tudo-o-mais-constante", "target": "concept:comensurabilidade"}, "classes": "relaciona_se_com"}, {"data": {"id": "le10", "source": "text:ashworth-berry-bueno-de-mesquita-2021", "target": "concept:comensurabilidade"}, "classes": "desenvolve_conceito"}, {"data": {"id": "le11", "source": "text:ashworth-berry-bueno-de-mesquita-2021", "target": "concept:mecanismo"}, "classes": "desenvolve_conceito"}, {"data": {"id": "le12", "source": "text:ashworth-berry-bueno-de-mesquita-2021", "target": "concept:similaridade-modelo-alvo"}, "classes": "desenvolve_conceito"}, {"data": {"id": "le13", "source": "text:ashworth-berry-bueno-de-mesquita-2021", "target": "concept:tudo-o-mais-constante"}, "classes": "desenvolve_conceito"}, {"data": {"id": "le14", "source": "text:ashworth-berry-bueno-de-mesquita-2021", "target": "session:s01"}, "classes": "pertence_a_sessao"}, {"data": {"id": "le15", "source": "text:clarke-primo-2004", "target": "concept:similaridade-modelo-alvo"}, "classes": "desenvolve_conceito"}, {"data": {"id": "le16", "source": "text:clarke-primo-2004", "target": "session:s01"}, "classes": "pertence_a_sessao"}]}; window.__NS__ = {"author": {"color": "#3d5a80", "size": 34, "shape": "ellipse", "dir": "autores", "label": "author"}, "text": {"color": "#e07a5f", "size": 46, "shape": "round-rectangle", "dir": "textos", "label": "text"}, "concept": {"color": "#81b29a", "size": 52, "shape": "hexagon", "dir": "conceitos", "label": "concept"}, "session": {"color": "#f2cc8f", "size": 38, "shape": "diamond", "dir": "sessoes", "label": "session"}, "legislation": {"color": "#6d597a", "size": 42, "shape": "tag", "dir": "legislacao", "label": "legislation"}, "julgado": {"color": "#9d0208", "size": 44, "shape": "octagon", "dir": "julgados", "label": "case"}}; window.__ES__ = {"escreveu": {"color": "#3d5a80", "label": "wrote"}, "pertence_a_sessao": {"color": "#c9a227", "label": "belongs to session"}, "desenvolve_conceito": {"color": "#4d8067", "label": "develops concept"}, "cita": {"color": "#9b5de5", "label": "cites"}, "relaciona_se_com": {"color": "#c1503a", "label": "relates to"}, "define_conceito": {"color": "#6d597a", "label": "defines concept"}, "instancia_conceito": {"color": "#9d0208", "label": "instantiates concept"}};</script>
+<footer>Gerado deterministicamente por <code>tools/wiki_core/render.py</code> a partir de <code>wiki/conceitos/mecanismo.md</code>. Fonte de verdade é o markdown, editar lá.<br><a href="http://127.0.0.1:8790/_editar?p=conceitos/mecanismo.md">edit</a> &middot; <a href="http://127.0.0.1:8790/_historico?p=conceitos/mecanismo.md">history</a></footer>
+</main>
+</div>
+<script src="../vendor/cytoscape.min.js"></script>
+<script>
+(function(){
+  var saved = localStorage.getItem('dlp-wiki-theme');
+  if (saved) document.documentElement.setAttribute('data-theme', saved);
+  window.toggleWikiTheme = function(){
+    var cur = document.documentElement.getAttribute('data-theme');
+    var next = cur === 'dark' ? 'light' : (cur === 'light' ? 'dark' : (matchMedia('(prefers-color-scheme: dark)').matches ? 'light' : 'dark'));
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('dlp-wiki-theme', next);
+  };
+})();
+</script>
+<script>
+(function(){
+  var salvo = localStorage.getItem('dlp-wiki-lang') || 'en';
+  function aplicar(l){
+    // So 38 das 73 paginas tem sidecar .en.md: as 35 com status stub nao tem traducao, entao nao
+    // emitem o bloco data-lang="en" (o botao continua aparecendo mesmo assim, ver _render_page,
+    // 12/08/2026). Sem esta linha, quem escolhia EN e seguia um wikilink ate uma delas via o TEXTO
+    // SUMIR (o bloco pt ficava hidden e nao havia bloco en para mostrar), com a escolha persistida
+    // em localStorage e sem indicacao do porque. Cair para 'pt' quando a pagina nao tem o idioma
+    // pedido e o comportamento certo: a preferencia global continua salva e volta a valer na
+    // proxima pagina que tenha traducao.
+    var blocosLang = document.querySelectorAll('[data-lang]');
+    var alvo = document.querySelector('[data-lang="' + l + '"]') ? l : 'pt';
+    blocosLang.forEach(function(el){
+      el.hidden = (el.getAttribute('data-lang') !== alvo);
+    });
+    // CROMO (rotulos da navegacao) tem atributo proprio, e segue o idioma PEDIDO, e
+    // nao o alvo. A separacao nao e estetica: se os rotulos usassem data-lang, toda
+    // pagina passaria a ter um bloco 'en' e a linha do alvo acima nunca cairia para
+    // 'pt' -- o recuo morreria calado nas 35 paginas sem traducao, e o corpo sumiria,
+    // que e o defeito que esta funcao existe para evitar. Ha teste dedicado a isso.
+    document.querySelectorAll('[data-chrome-lang]').forEach(function(el){
+      el.hidden = (el.getAttribute('data-chrome-lang') !== l);
+    });
+    // So paginas com bloco data-lang tem corpo bilingue de verdade: busca, tags e o
+    // grafo nao tem nenhum, so cromo, e sempre caindo em 'pt' aqui (achado em revisao
+    // de codigo, 12/08/2026) mentia pro leitor de tela e pro tradutor do navegador,
+    // <html lang="pt-BR"> numa pagina cujo corpo continua em ingles. Sem bloco
+    // data-lang, o lang do documento fica no que o HTML ja declarou estaticamente.
+    if (blocosLang.length) {
+      document.documentElement.lang = (alvo === 'en' ? 'en' : 'pt-BR');
+    }
+    // O aviso e a diferenca entre cair calado e cair explicando. Com 'pt' como padrao, quem via
+    // portugues num tampao tinha pedido portugues; com 'en' como padrao, quem chega pela primeira
+    // vez PEDIU ingles sem saber que pediu, e sem o aviso leria a queda como site quebrado. Acende
+    // so quando o leitor pediu 'en' E a pagina nao tem: quem esta em portugues por escolha propria
+    // nao recebe aviso nenhum.
+    var aviso = document.getElementById('aviso-sem-traducao');
+    if (aviso) { aviso.hidden = !(l === 'en' && alvo !== 'en'); }
+  }
+  window.toggleLang = function(){
+    var atual = localStorage.getItem('dlp-wiki-lang') || 'en';
+    var novo = atual === 'pt' ? 'en' : 'pt';
+    localStorage.setItem('dlp-wiki-lang', novo);
+    aplicar(novo);
+  };
+  aplicar(salvo);
+})();
+</script>
+<script>
+window.wikiBusca = {
+  MINIMO: 2,
+  esc: function(s){ return String(s).replace(/[&<>]/g, function(c){
+    return {'&':'&amp;','<':'&lt;','>':'&gt;'}[c]; }); },
+  filtrar: function(docs, termo){
+    termo = (termo || '').trim().toLowerCase();
+    if (termo.length < this.MINIMO) return [];
+    return (docs || []).filter(function(d){
+      return (d.t + ' ' + d.c).toLowerCase().indexOf(termo) !== -1;
+    });
+  },
+  trecho: function(d, termo, antes, depois){
+    var i = d.c.toLowerCase().indexOf((termo || '').trim().toLowerCase());
+    if (i === -1) return '';
+    return this.esc(d.c.substring(Math.max(0, i - antes), i + depois));
+  }
+};
+
+(function(){
+  var campo = document.getElementById('busca-campo');
+  var painel = document.getElementById('busca-resultados');
+  if (!campo) return;
+
+  campo.addEventListener('keydown', function(ev){
+    if (ev.key === 'Enter' && campo.value.trim()){
+      window.location.href = campo.getAttribute('data-alvo') + '?q=' + encodeURIComponent(campo.value.trim());
+    }
+    if (ev.key === 'Escape' && painel){ painel.hidden = true; }
+  });
+
+  if (!painel || typeof fetch !== 'function') return;
+
+  var docs = null, carregando = false, falhou = false;
+  var prefixo = campo.getAttribute('data-prefixo') || '';
+
+  function desenhar(){
+    var termo = campo.value.trim();
+    if (termo.length < window.wikiBusca.MINIMO){ painel.hidden = true; painel.innerHTML = ''; return; }
+    if (falhou){ painel.hidden = true; return; }   // Enter ainda funciona
+    if (!docs){ carregar(); return; }
+    var achados = window.wikiBusca.filtrar(docs, termo);
+    painel.hidden = false;
+    if (!achados.length){
+      painel.innerHTML = '<div class="bq-nada">nenhum resultado para ' +
+        window.wikiBusca.esc(termo) + '</div>';
+      return;
+    }
+    var visiveis = achados.slice(0, 12);
+    painel.innerHTML = visiveis.map(function(d){
+      return '<a href="' + prefixo + d.h + '"><span class="bq-tipo">' +
+             window.wikiBusca.esc(d.k) + '</span>' + window.wikiBusca.esc(d.t) + '</a>';
+    }).join('') + (achados.length > visiveis.length
+      ? '<div class="bq-nada">e mais ' + (achados.length - visiveis.length) +
+        ', Enter para ver todos</div>' : '');
+  }
+
+  function carregar(){
+    if (carregando) return;
+    carregando = true;
+    fetch(campo.getAttribute('data-indice'))
+      .then(function(r){ if (!r.ok) throw new Error(r.status); return r.json(); })
+      .then(function(j){ docs = j; carregando = false; desenhar(); })
+      .catch(function(){ falhou = true; carregando = false; painel.hidden = true; });
+  }
+
+  campo.addEventListener('input', desenhar);
+  document.addEventListener('click', function(ev){
+    if (painel && !painel.contains(ev.target) && ev.target !== campo){ painel.hidden = true; }
+  });
+})();
+</script>
+<script>
+(function(){
+  var d = window.__LOCAL__; if (!d || !window.cytoscape) return;
+  var NS = window.__NS__, ES = window.__ES__;
+  var cy = cytoscape({
+    container: document.getElementById('cy-local'),
+    elements: { nodes: d.nodes, edges: d.edges },
+    style: Object.keys(NS).map(function(t){
+      return { selector: 'node.' + t, style: {
+        'background-color': NS[t].color, 'width': NS[t].size * 0.75, 'height': NS[t].size * 0.75,
+        'shape': NS[t].shape, 'label': 'data(label)', 'font-size': 9, 'color': '#141413',
+        'text-valign': 'bottom', 'text-margin-y': 3, 'text-wrap': 'wrap', 'text-max-width': 88 } };
+    }).concat(Object.keys(ES).map(function(t){
+      return { selector: 'edge.' + t, style: {
+        'line-color': ES[t].color, 'target-arrow-color': ES[t].color,
+        'target-arrow-shape': 'triangle', 'curve-style': 'bezier', 'width': 1.4, 'opacity': 0.8 } };
+    })).concat([{ selector: 'node.foco', style: { 'border-width': 3, 'border-color': '#141413' } }]),
+    layout: { name: 'cose', animate: false, padding: 24 }
+  });
+  cy.on('tap', 'node', function(ev){ window.location.href = ev.target.data('href'); });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+# As sessoes do curso, na ordem do plano de ensino. SEGUNDA FONTE DE VERDADE, e por isso ha trava.
+#
+# Por que este arquivo existe: o indice da wiki mostra o curso INTEIRO, e nao so as aulas que ja
+# viraram pagina. Sem ele, quem abre a wiki no meio do semestre ve um curso com dois blocos e conclui
+# que o resto nao existe. A sessao sem pagina aparece com a marca "em breve".
+#
+# TRAVA: a FF-21 confere que toda sessao COM pagina esta aqui. O contrario nao trava, de proposito --
+# sessao no grafo e fora do plano continua entrando no indice, porque perder do indice uma pagina ja
+# publicada seria pior que a lista sair fora de ordem.
+#
+# Fonte: "Plano de Ensino 2026.2 - Desenhos e Tecnicas Avancadas de Pesquisa1.docx", pasta
+# "00 - Plano de Ensino". Disciplina obrigatoria de doutorado, 45h, 3 creditos, tercas 9h30-12h30.
+# Docente responsavel Leandro Molhano Ribeiro; assistente Leonardo Carrilho Jorge.
+#
+# As datas sao as do plano e nao foram reconferidas contra o calendario academico nesta rodada.
+#
+# CORRIGIDO em 18/08/2026 contra o plano novo: a numeracao inteira estava deslocada em uma
+# sessao, porque a aula I do plano e a APRESENTACAO DA DISCIPLINA, sem bibliografia, e nao a
+# primeira aula de conteudo. A entrada `s15` ("Encerramento") nao existe no plano e saiu.
+#
+# A ultima dupla vem no plano com as datas FORA DE ORDEM (17/11 antes de 10/11). Ficam como a
+# fonte as traz: reordenar aqui seria consertar o plano em silencio, e o plano nao e meu.
+
+sessoes:
+  - slug: s00
+    titulo: "Apresentação da disciplina"
+    sessoes_do_plano: "I"
+    datas: ["2026-08-11"]
+
+  - slug: s01
+    titulo: "Desenho de pesquisa e estudos empíricos em regulação"
+    sessoes_do_plano: "II"
+    datas: ["2026-08-18"]
+
+  - slug: s02-03
+    titulo: "Problema de pesquisa e revisão bibliográfica replicável"
+    sessoes_do_plano: "III-IV"
+    datas: ["2026-08-25", "2026-09-01"]
+    trabalho: "protocolo de revisão de literatura"
+
+  - slug: s04-05
+    titulo: "Lógica da elaboração conceitual e mensuração"
+    sessoes_do_plano: "V-VI"
+    datas: ["2026-09-08", "2026-09-15"]
+    trabalho: "operacionalização de um conceito"
+
+  - slug: s06-08
+    titulo: "Análise de conteúdo"
+    sessoes_do_plano: "VII-IX"
+    datas: ["2026-09-22", "2026-09-29", "2026-10-06"]
+    trabalho: "livro de códigos e protocolo com teste-piloto de alfa de Krippendorff"
+
+  - slug: s09-10
+    titulo: "Estatística descritiva aplicada à análise de conteúdo"
+    sessoes_do_plano: "X-XI"
+    datas: ["2026-10-13", "2026-10-20"]
+    trabalho: "análise descritiva sobre corpus jurídico, com códigos em RMarkdown"
+
+  - slug: s11-12
+    titulo: "Estudos de caso e comparações small-N"
+    sessoes_do_plano: "XII-XIII"
+    datas: ["2026-10-27", "2026-11-03"]
+    trabalho: "proposta de desenho de estudo de caso ou comparado"
+
+  - slug: s13-14
+    titulo: "Técnicas de entrevista qualitativa"
+    sessoes_do_plano: "XIV-XV"
+    datas: ["2026-11-17", "2026-11-10"]
+    trabalho: "roteiro semiestruturado metodologicamente justificado"
+
