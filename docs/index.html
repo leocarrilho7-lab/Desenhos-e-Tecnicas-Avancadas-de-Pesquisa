@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
 <meta charset="utf-8">
 <title>Desenhos e Técnicas Avançadas de Pesquisa 2026.2 wiki</title>
@@ -93,15 +93,15 @@ nav.sidebar{position:sticky;top:0;align-self:flex-start;max-height:100vh;overflo
 <body>
 <div class="controles"><button id="lang-toggle" onclick="toggleLang()">EN / PT</button><button onclick="toggleWikiTheme()">Light/Dark</button></div>
 <div class="layout">
-<nav class="sidebar"><a href="index.html"><strong><span data-chrome-lang="en">Desenhos e Técnicas Avançadas de Pesquisa 2026.2, wiki</span><span data-chrome-lang="pt" hidden>Wiki Desenhos e Técnicas Avançadas de Pesquisa 2026.2</span></strong></a>
-<a href="graph.html"><span data-chrome-lang="en">View the concept graph</span><span data-chrome-lang="pt" hidden>Ver o grafo de conceitos</span></a>
-<a href="tags.html"><span data-chrome-lang="en">Index by tag</span><span data-chrome-lang="pt" hidden>Índice por tag</span></a>
+<nav class="sidebar"><a href="index.html"><strong><span data-chrome-lang="pt">Wiki Desenhos e Técnicas Avançadas de Pesquisa 2026.2</span><span data-chrome-lang="en" hidden>Desenhos e Técnicas Avançadas de Pesquisa 2026.2, wiki</span></strong></a>
+<a href="graph.html"><span data-chrome-lang="pt">Ver o grafo de conceitos</span><span data-chrome-lang="en" hidden>View the concept graph</span></a>
+<a href="tags.html"><span data-chrome-lang="pt">Índice por tag</span><span data-chrome-lang="en" hidden>Index by tag</span></a>
 <input id="busca-campo" type="search" placeholder="search..." data-alvo="busca.html" data-indice="busca.json" data-prefixo="" class="busca-campo">
 <div id="busca-resultados" class="busca-resultados" hidden></div>
-<div class="area"><span data-chrome-lang="en">Sessions</span><span data-chrome-lang="pt" hidden>Sessões</span></div>
+<div class="area"><span data-chrome-lang="pt">Sessões</span><span data-chrome-lang="en" hidden>Sessions</span></div>
 <a href="sessoes/s01.html">Desenho de pesquisa e estudos empíricos em regulação</a>
 <a href="sessoes/s02-03.html">Problema de pesquisa e revisão bibliográfica replicável</a>
-<div class="area"><span data-chrome-lang="en">Authors</span><span data-chrome-lang="pt" hidden>Autores</span></div>
+<div class="area"><span data-chrome-lang="pt">Autores</span><span data-chrome-lang="en" hidden>Authors</span></div>
 <a href="autores/freitas.html">Beatriz Cristina de Freitas</a>
 <a href="autores/hancke.html">Bob Hancke</a>
 <a href="autores/mershon.html">Carol Mershon</a>
@@ -122,7 +122,7 @@ nav.sidebar{position:sticky;top:0;align-self:flex-start;max-height:100vh;overflo
 <a href="autores/shvetsova.html">Olga Shvetsova</a>
 <a href="autores/potter.html">Rachel Augustine Potter</a>
 <a href="autores/ashworth.html">Scott Ashworth</a>
-<div class="area"><span data-chrome-lang="en">Texts</span><span data-chrome-lang="pt" hidden>Textos</span></div>
+<div class="area"><span data-chrome-lang="pt">Textos</span><span data-chrome-lang="en" hidden>Texts</span></div>
 <a href="textos/freitas-2020.html">A Judicialização da saúde nos sistemas público e privado de saúde: uma revisão sistemática</a>
 <a href="textos/potter-2019.html">Bending the Rules: Procedural Politicking in the Bureaucracy</a>
 <a href="textos/mildenberger-2020.html">Carbon Captured: How Business and Labor Control Climate Politics</a>
@@ -136,7 +136,7 @@ nav.sidebar{position:sticky;top:0;align-self:flex-start;max-height:100vh;overflo
 <a href="textos/peters-2020.html">Updated methodological guidance for the conduct of scoping reviews</a>
 <a href="textos/sandberg-alvesson-2011.html">Ways of constructing research questions: gap-spotting or problematization?</a>
 <a href="textos/gustafsson-hagstrom-2017.html">What is the Point? Teaching Graduate Students How to Construct Political Science Research Puzzles</a>
-<div class="area"><span data-chrome-lang="en">Concepts</span><span data-chrome-lang="pt" hidden>Conceitos</span></div>
+<div class="area"><span data-chrome-lang="pt">Conceitos</span><span data-chrome-lang="en" hidden>Concepts</span></div>
 <a href="conceitos/analise-intracaso-e-condicoes-de-escopo.html">Análise intracaso e condições de escopo</a>
 <a href="conceitos/captura-regulatoria-oculta.html">Captura regulatória oculta</a>
 <a href="conceitos/comensurabilidade.html">Comensurabilidade</a>
@@ -208,7 +208,7 @@ the draft, which is only a reference, goes online.
 </script>
 <script>
 (function(){
-  var salvo = localStorage.getItem('dlp-wiki-lang') || 'en';
+  var salvo = localStorage.getItem('dlp-wiki-lang') || 'pt';
   function aplicar(l){
     // So 38 das 73 paginas tem sidecar .en.md: as 35 com status stub nao tem traducao, entao nao
     // emitem o bloco data-lang="en" (o botao continua aparecendo mesmo assim, ver _render_page,
@@ -247,7 +247,7 @@ the draft, which is only a reference, goes online.
     if (aviso) { aviso.hidden = !(l === 'en' && alvo !== 'en'); }
   }
   window.toggleLang = function(){
-    var atual = localStorage.getItem('dlp-wiki-lang') || 'en';
+    var atual = localStorage.getItem('dlp-wiki-lang') || 'pt';
     var novo = atual === 'pt' ? 'en' : 'pt';
     localStorage.setItem('dlp-wiki-lang', novo);
     aplicar(novo);
